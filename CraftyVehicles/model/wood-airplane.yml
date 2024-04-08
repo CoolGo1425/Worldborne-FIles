@@ -1,0 +1,789 @@
+id: wood-airplane
+type: COMPOUND
+hitbox:
+  width: 2.3010160555866706
+  height: 2.5728679119714095
+  depth: 2.3010160555866706
+seats:
+  seat-0:
+    main: false
+    offset:
+      x: 0.03390689618697752
+      y: 0.4998951278904491
+      z: -0.17563885910337998
+particles: {}
+sounds: {}
+parts:
+  part-100025275:
+    identifier: 74757b08-1d5b-4c17-932c-ae26c7c86e2d
+    id: part-100025275
+    material: OAK_SLAB
+    offset:
+      x: -0.6414285361766818
+      y: 0.6999999523162842
+      z: -1.0842215010098042
+    rotation:
+      x: -89.999995674289
+      y: 0.0
+      z: -89.999995674289
+    scale:
+      x: 1.0999999999999996
+      y: 0.40000000000000013
+      z: 0.5000000000000001
+  part-72233112:
+    identifier: a89c0d7a-89a4-4531-aa62-32afd6a22b36
+    id: part-72233112
+    material: OAK_SLAB
+    offset:
+      x: -0.4414285361766752
+      y: 1.5999999523162844
+      z: -0.5842215010098037
+    rotation:
+      x: 90.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.8999999999999999
+      y: 0.4
+      z: 0.8999999999999999
+  part-2838249:
+    identifier: c6b4526f-1d95-4d71-afa4-e726eb07dd3e
+    id: part-2838249
+    material: OAK_SLAB
+    offset:
+      x: -0.44142853617668165
+      y: 0.3999999523162837
+      z: -0.9842215010098032
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.8999999999999999
+      y: 0.6000000000000001
+      z: 1.0
+  part-29535773:
+    identifier: 01b70042-92dd-4699-a4e4-0ba5351b5ab1
+    id: part-29535773
+    material: OAK_FENCE
+    offset:
+      x: -0.24142853617668125
+      y: 0.09999995231628453
+      z: 0.3157784989901966
+    rotation:
+      x: -15.000000417413027
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5
+      y: 0.30000000000000016
+      z: 0.5
+  part-78447643:
+    identifier: 92ebc88a-2c8b-48ed-9fc3-41a6cfa69a8f
+    id: part-78447643
+    material: OAK_SLAB
+    offset:
+      x: -4.641428536176676
+      y: 0.7999999523162845
+      z: -0.5842215010098037
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 0.4
+      z: 1.4
+  part-16307565:
+    identifier: cb2cc77c-83ae-42a6-b9e2-33187ee036e5
+    id: part-16307565
+    material: OAK_SLAB
+    offset:
+      x: 0.4585714638233179
+      y: 0.6999999523162842
+      z: 0.015778498990197676
+    rotation:
+      x: -89.999995674289
+      y: 0.0
+      z: -89.999995674289
+    scale:
+      x: 1.0999999999999996
+      y: 0.40000000000000013
+      z: 0.5000000000000001
+  part-106010978:
+    identifier: 10acc2f4-ee55-48a7-9651-cd96a8d8a585
+    id: part-106010978
+    material: OAK_FENCE
+    offset:
+      x: 0.058571463823319014
+      y: 0.1999999523162844
+      z: -0.8842215010098036
+    rotation:
+      x: 15.000000000000002
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5
+      y: 0.30000000000000016
+      z: 0.5
+  part-43091047:
+    identifier: c7f3080a-6367-4e24-9e63-42b60d72a30d
+    id: part-43091047
+    material: OAK_SLAB
+    offset:
+      x: -0.6414285361766818
+      y: 0.6999999523162842
+      z: 0.015778498990197676
+    rotation:
+      x: -89.999995674289
+      y: 0.0
+      z: -89.999995674289
+    scale:
+      x: 1.0999999999999996
+      y: 0.40000000000000013
+      z: 0.5000000000000001
+  part-86521219:
+    identifier: bb544d0f-9d51-46d2-9419-7311d5f714bb
+    id: part-86521219
+    material: OAK_SLAB
+    offset:
+      x: -2.641428536176676
+      y: 0.7999999523162845
+      z: -0.5842215010098037
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 0.4
+      z: 1.4
+  part-2541875:
+    identifier: ff098e21-efbb-400f-a86d-bdecc03265c9
+    id: part-2541875
+    material: OAK_SLAB
+    offset:
+      x: 2.5585714638233252
+      y: 2.1999999523162845
+      z: -0.5842215010098037
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.7999999999999998
+      y: 0.4
+      z: 1.4
+  part-18968264:
+    identifier: 70297a39-f732-495c-8405-7d27f8effc13
+    id: part-18968264
+    material: OAK_SLAB
+    offset:
+      x: 0.4585714638233179
+      y: 0.6999999523162842
+      z: -1.0842215010098042
+    rotation:
+      x: -89.999995674289
+      y: 0.0
+      z: -89.999995674289
+    scale:
+      x: 1.0999999999999996
+      y: 0.40000000000000013
+      z: 0.5000000000000001
+  part-33263222:
+    identifier: 719e5f47-bd2a-4dc0-8020-3a9c8e7c1b9a
+    id: part-33263222
+    material: OAK_SLAB
+    offset:
+      x: 0.5585714638233241
+      y: 0.7999999523162845
+      z: -0.5842215010098037
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 0.4
+      z: 1.4
+  part-55132335:
+    identifier: abcc2292-b733-4e7a-881e-b6d866d1a0b8
+    id: part-55132335
+    material: OAK_FENCE
+    offset:
+      x: 2.9585714638233123
+      y: 0.9999999523162849
+      z: -0.6842215010098021
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.7
+      y: 1.2000000000000002
+      z: 0.7
+  part-67469281:
+    identifier: 0bfbcee8-6e74-4ed1-ab8b-c4d4a5ede98b
+    id: part-67469281
+    material: OAK_SLAB
+    offset:
+      x: -0.44142853617668165
+      y: 0.3999999523162837
+      z: 0.015778498990197676
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.8999999999999999
+      y: 0.6000000000000001
+      z: 1.0
+  part-111406637:
+    identifier: 397689b7-9eaa-444a-a9d8-aa7eb5994726
+    id: part-111406637
+    material: OAK_SLAB
+    offset:
+      x: -2.641428536176676
+      y: 2.1999999523162845
+      z: -0.5842215010098037
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 0.4
+      z: 1.4
+  part-117844483:
+    identifier: 0ff22ef0-92b6-4a34-8cdd-2dccb1fe829c
+    id: part-117844483
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE4YWFmOWQxNjhjZDc4MWNjMGU2ZDM2ZGQ1MzVlNzJkOWY0NTk5NTQ5ZjhlZmU1NWUxYjhjNzcyMmU3YmEzIn19fQ==
+    offset:
+      x: 0.3585714638233185
+      y: 0.09999995231628409
+      z: -0.6842215010098038
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+    scale:
+      x: 0.4
+      y: 0.4
+      z: 0.30000000000000004
+  part-28851909:
+    identifier: 786db7dc-9cdd-428a-99eb-2450084b1698
+    id: part-28851909
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE4YWFmOWQxNjhjZDc4MWNjMGU2ZDM2ZGQ1MzVlNzJkOWY0NTk5NTQ5ZjhlZmU1NWUxYjhjNzcyMmU3YmEzIn19fQ==
+    offset:
+      x: -0.3414285361766818
+      y: 0.09999995231628409
+      z: -0.6842215010098038
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+    scale:
+      x: 0.4
+      y: 0.4
+      z: 0.30000000000000004
+  part-123358922:
+    identifier: 0081f479-4972-4e48-8164-9f7739c7e8b2
+    id: part-123358922
+    material: OAK_PLANKS
+    offset:
+      x: -0.24142853617668147
+      y: 0.5999999523162843
+      z: -2.684221501009804
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5
+      y: 0.5499999999999999
+      z: 0.9999999999999999
+  part-35455640:
+    identifier: bd02dfc0-2cc2-498d-9907-0ee5118c1615
+    id: part-35455640
+    material: OAK_PLANKS
+    offset:
+      x: -0.24142853617668147
+      y: 0.6999999523162843
+      z: -1.6842215010098038
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5
+      y: 0.35
+      z: 0.5
+  part-29333465:
+    identifier: 674b8f64-0f1d-4306-af15-909dad849b8d
+    id: part-29333465
+    material: TRIPWIRE_HOOK
+    offset:
+      x: 0.6585714638233184
+      y: -0.10000004768371631
+      z: 1.6157784989901938
+    rotation:
+      x: -135.000054983136
+      y: 0.0
+      z: 180.00000500895632
+    scale:
+      x: 1.3
+      y: 1.3
+      z: 1.3
+  part-65147804:
+    identifier: 807f6f84-dc81-40f1-be3c-5ce4a4a0e25e
+    id: part-65147804
+    material: OAK_FENCE
+    offset:
+      x: -0.4414285361766812
+      y: -0.10000004768371543
+      z: 1.0157784989901968
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.9
+      y: 0.9
+      z: 0.9
+  part-105757784:
+    identifier: 01117f0d-68e8-4793-a425-bf050da3cfb2
+    id: part-105757784
+    material: OAK_FENCE
+    offset:
+      x: -0.4414285361766812
+      y: 0.9999999523162849
+      z: 1.0157784989901932
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.9
+      y: 0.9
+      z: 0.9
+  part-796751:
+    identifier: 278e27f3-a303-4f4b-b29f-1a11d5ca4aed
+    id: part-796751
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE4YWFmOWQxNjhjZDc4MWNjMGU2ZDM2ZGQ1MzVlNzJkOWY0NTk5NTQ5ZjhlZmU1NWUxYjhjNzcyMmU3YmEzIn19fQ==
+    offset:
+      x: 0.05857146382331857
+      y: 0.09999995231628409
+      z: 0.6157784989901947
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+    scale:
+      x: 0.4
+      y: 0.4
+      z: 0.30000000000000004
+  part-17692474:
+    identifier: 25272dfe-a107-47ca-9ada-5c716b7fa9cc
+    id: part-17692474
+    material: OAK_SLAB
+    offset:
+      x: -0.541428536176682
+      y: 0.6999999523162842
+      z: -0.7842215010098053
+    rotation:
+      x: -90.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0999999999999996
+      y: 0.8000000000000002
+      z: 0.5000000000000001
+  part-10221771:
+    identifier: e0b4e82d-a40a-4569-a111-15363570c33f
+    id: part-10221771
+    material: RED_CARPET
+    offset:
+      x: -0.34142853617668156
+      y: 1.4999999523162841
+      z: -0.3842215010098027
+    rotation:
+      x: 90.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.7000000000000001
+      y: 1.0
+      z: 0.8
+  part-58109112:
+    identifier: 67cc8ecf-2b96-4545-8e24-ed4452b366cb
+    id: part-58109112
+    material: OAK_FENCE
+    offset:
+      x: -3.741428536176686
+      y: 0.9999999523162849
+      z: -0.6842215010098021
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.7
+      y: 1.2000000000000002
+      z: 0.7
+  part-16937509:
+    identifier: aeef89b7-15bb-45ec-b11d-0093d60f1b62
+    id: part-16937509
+    material: OAK_FENCE
+    offset:
+      x: -0.09142853617668156
+      y: 0.4499999523162842
+      z: 1.0157784989901968
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 90.0
+    scale:
+      x: 0.9
+      y: 0.9
+      z: 0.9
+  part-102263489:
+    identifier: d7c73af1-cbe9-4f2c-8c92-4eb08b5343b6
+    id: part-102263489
+    material: OAK_SLAB
+    offset:
+      x: -4.4414285361766765
+      y: 2.1999999523162845
+      z: -0.5842215010098037
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.7999999999999998
+      y: 0.4
+      z: 1.4
+  part-109843614:
+    identifier: 4632ea52-47fa-407a-a568-7b64c61cf0a1
+    id: part-109843614
+    material: OAK_SLAB
+    offset:
+      x: 0.5585714638233241
+      y: 2.1999999523162845
+      z: -0.5842215010098037
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 0.4
+      z: 1.4
+  part-41540402:
+    identifier: f893be33-2dc5-48a7-bd85-ca1c6e9dcce8
+    id: part-41540402
+    material: OAK_SLAB
+    offset:
+      x: -0.6414285361766754
+      y: 2.2999999523162846
+      z: -0.5842215010098037
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.2
+      y: 0.30000000000000004
+      z: 1.4
+  part-123183283:
+    identifier: 0b00f8f2-921c-4cf8-89d7-d0002e16016e
+    id: part-123183283
+    material: OAK_FENCE
+    offset:
+      x: 2.9585714638233123
+      y: 0.9999999523162849
+      z: 0.21577849899019608
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.7
+      y: 1.2000000000000002
+      z: 0.7
+  part-47592235:
+    identifier: 0b522cdf-58f2-4615-86d8-487d7f2d9e60
+    id: part-47592235
+    material: OAK_SLAB
+    offset:
+      x: 2.5585714638233252
+      y: 0.7999999523162845
+      z: -0.5842215010098037
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 0.4
+      z: 1.4
+  part-45676544:
+    identifier: ff6cbf47-d042-44ab-9618-db4b37aafe0f
+    id: part-45676544
+    material: OAK_FENCE
+    offset:
+      x: -0.5414285361766815
+      y: 0.1999999523162844
+      z: -0.8842215010098036
+    rotation:
+      x: 15.000000000000002
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5
+      y: 0.30000000000000016
+      z: 0.5
+  part-5757768:
+    identifier: 21af43ad-4f63-4929-94aa-c4e21d6090d7
+    id: part-5757768
+    material: OAK_FENCE
+    offset:
+      x: -3.741428536176686
+      y: 0.9999999523162849
+      z: 0.21577849899019608
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.7
+      y: 1.2000000000000002
+      z: 0.7
+  part-11687806:
+    identifier: 1b53a52c-8edc-47fc-8b3c-d76f476f52d8
+    id: part-11687806
+    material: OAK_SLAB
+    offset:
+      x: -0.541428536176682
+      y: 0.6999999523162842
+      z: 1.215778498990197
+    rotation:
+      x: -90.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0999999999999996
+      y: 0.40000000000000013
+      z: 0.5000000000000001
+  part-120660225:
+    identifier: 52d3381a-ca50-4def-a746-561555a97d15
+    id: part-120660225
+    material: OAK_FENCE
+    offset:
+      x: 0.10857146382331839
+      y: 1.349999952316284
+      z: 1.0157784989901968
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: -90.0
+    scale:
+      x: 0.9
+      y: 0.9
+      z: 0.9
+  part-122963552:
+    identifier: 1c6898f8-804c-4bff-9c90-ec2248206932
+    id: part-122963552
+    material: OAK_SLAB
+    offset:
+      x: -0.8414285361766825
+      y: 0.8999999523162842
+      z: -2.3842215010098045
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.7000000000000004
+      y: 0.20000000000000012
+      z: 0.6000000000000001
+  part-117498749:
+    identifier: fb6c2b13-8534-4c6e-b511-93e56e69be88
+    id: part-117498749
+    material: OAK_SLAB
+    offset:
+      x: 0.05857146382331768
+      y: 0.3999999523162844
+      z: -2.3842215010098053
+    rotation:
+      x: -15.000000417413027
+      y: -7.683962816264344E-6
+      z: 90.00003665542401
+    scale:
+      x: 1.2000000000000004
+      y: 0.20000000000000012
+      z: 0.6000000000000001
+bones:
+  seat:
+    identifier: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+    id: seat
+    pivot:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  rotor:
+    identifier: 655a8928-af90-47e9-bcc5-4d5f0603605d
+    id: rotor
+    pivot:
+      x: -0.011916911322771633
+      y: 0.8897905587036229
+      z: 1.2000000000000002
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  wings:
+    identifier: ad370512-2475-418f-bc96-b263528c80b8
+    id: wings
+    pivot:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+rig:
+  0b522cdf-58f2-4615-86d8-487d7f2d9e60:
+    identifier: 0b522cdf-58f2-4615-86d8-487d7f2d9e60
+    parent: ad370512-2475-418f-bc96-b263528c80b8
+  c6b4526f-1d95-4d71-afa4-e726eb07dd3e:
+    identifier: c6b4526f-1d95-4d71-afa4-e726eb07dd3e
+    parent: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+  92ebc88a-2c8b-48ed-9fc3-41a6cfa69a8f:
+    identifier: 92ebc88a-2c8b-48ed-9fc3-41a6cfa69a8f
+    parent: ad370512-2475-418f-bc96-b263528c80b8
+  25272dfe-a107-47ca-9ada-5c716b7fa9cc:
+    identifier: 25272dfe-a107-47ca-9ada-5c716b7fa9cc
+    parent: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+  655a8928-af90-47e9-bcc5-4d5f0603605d:
+    identifier: 655a8928-af90-47e9-bcc5-4d5f0603605d
+    children:
+    - 807f6f84-dc81-40f1-be3c-5ce4a4a0e25e
+    - 01117f0d-68e8-4793-a425-bf050da3cfb2
+    - 52d3381a-ca50-4def-a746-561555a97d15
+    - aeef89b7-15bb-45ec-b11d-0093d60f1b62
+  0bfbcee8-6e74-4ed1-ab8b-c4d4a5ede98b:
+    identifier: 0bfbcee8-6e74-4ed1-ab8b-c4d4a5ede98b
+    parent: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+  c7f3080a-6367-4e24-9e63-42b60d72a30d:
+    identifier: c7f3080a-6367-4e24-9e63-42b60d72a30d
+    parent: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+  4632ea52-47fa-407a-a568-7b64c61cf0a1:
+    identifier: 4632ea52-47fa-407a-a568-7b64c61cf0a1
+    parent: ad370512-2475-418f-bc96-b263528c80b8
+  01117f0d-68e8-4793-a425-bf050da3cfb2:
+    identifier: 01117f0d-68e8-4793-a425-bf050da3cfb2
+    parent: 655a8928-af90-47e9-bcc5-4d5f0603605d
+  52d3381a-ca50-4def-a746-561555a97d15:
+    identifier: 52d3381a-ca50-4def-a746-561555a97d15
+    parent: 655a8928-af90-47e9-bcc5-4d5f0603605d
+  bb544d0f-9d51-46d2-9419-7311d5f714bb:
+    identifier: bb544d0f-9d51-46d2-9419-7311d5f714bb
+    parent: ad370512-2475-418f-bc96-b263528c80b8
+  ad370512-2475-418f-bc96-b263528c80b8:
+    identifier: ad370512-2475-418f-bc96-b263528c80b8
+    children:
+    - 92ebc88a-2c8b-48ed-9fc3-41a6cfa69a8f
+    - f893be33-2dc5-48a7-bd85-ca1c6e9dcce8
+    - 4632ea52-47fa-407a-a568-7b64c61cf0a1
+    - 719e5f47-bd2a-4dc0-8020-3a9c8e7c1b9a
+    - ff098e21-efbb-400f-a86d-bdecc03265c9
+    - 397689b7-9eaa-444a-a9d8-aa7eb5994726
+    - bb544d0f-9d51-46d2-9419-7311d5f714bb
+    - d7c73af1-cbe9-4f2c-8c92-4eb08b5343b6
+    - 0b522cdf-58f2-4615-86d8-487d7f2d9e60
+  74757b08-1d5b-4c17-932c-ae26c7c86e2d:
+    identifier: 74757b08-1d5b-4c17-932c-ae26c7c86e2d
+    parent: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+  70297a39-f732-495c-8405-7d27f8effc13:
+    identifier: 70297a39-f732-495c-8405-7d27f8effc13
+    parent: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+  ff098e21-efbb-400f-a86d-bdecc03265c9:
+    identifier: ff098e21-efbb-400f-a86d-bdecc03265c9
+    parent: ad370512-2475-418f-bc96-b263528c80b8
+  cb2cc77c-83ae-42a6-b9e2-33187ee036e5:
+    identifier: cb2cc77c-83ae-42a6-b9e2-33187ee036e5
+    parent: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+  719e5f47-bd2a-4dc0-8020-3a9c8e7c1b9a:
+    identifier: 719e5f47-bd2a-4dc0-8020-3a9c8e7c1b9a
+    parent: ad370512-2475-418f-bc96-b263528c80b8
+  a89c0d7a-89a4-4531-aa62-32afd6a22b36:
+    identifier: a89c0d7a-89a4-4531-aa62-32afd6a22b36
+    parent: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+  aeef89b7-15bb-45ec-b11d-0093d60f1b62:
+    identifier: aeef89b7-15bb-45ec-b11d-0093d60f1b62
+    parent: 655a8928-af90-47e9-bcc5-4d5f0603605d
+  807f6f84-dc81-40f1-be3c-5ce4a4a0e25e:
+    identifier: 807f6f84-dc81-40f1-be3c-5ce4a4a0e25e
+    parent: 655a8928-af90-47e9-bcc5-4d5f0603605d
+  f893be33-2dc5-48a7-bd85-ca1c6e9dcce8:
+    identifier: f893be33-2dc5-48a7-bd85-ca1c6e9dcce8
+    parent: ad370512-2475-418f-bc96-b263528c80b8
+  e6b7dc7c-e560-4df7-9406-56c2067c56d0:
+    identifier: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+    children:
+    - 0bfbcee8-6e74-4ed1-ab8b-c4d4a5ede98b
+    - c6b4526f-1d95-4d71-afa4-e726eb07dd3e
+    - 74757b08-1d5b-4c17-932c-ae26c7c86e2d
+    - cb2cc77c-83ae-42a6-b9e2-33187ee036e5
+    - a89c0d7a-89a4-4531-aa62-32afd6a22b36
+    - 25272dfe-a107-47ca-9ada-5c716b7fa9cc
+    - 70297a39-f732-495c-8405-7d27f8effc13
+    - c7f3080a-6367-4e24-9e63-42b60d72a30d
+    - 1b53a52c-8edc-47fc-8b3c-d76f476f52d8
+  d7c73af1-cbe9-4f2c-8c92-4eb08b5343b6:
+    identifier: d7c73af1-cbe9-4f2c-8c92-4eb08b5343b6
+    parent: ad370512-2475-418f-bc96-b263528c80b8
+  397689b7-9eaa-444a-a9d8-aa7eb5994726:
+    identifier: 397689b7-9eaa-444a-a9d8-aa7eb5994726
+    parent: ad370512-2475-418f-bc96-b263528c80b8
+  1b53a52c-8edc-47fc-8b3c-d76f476f52d8:
+    identifier: 1b53a52c-8edc-47fc-8b3c-d76f476f52d8
+    parent: e6b7dc7c-e560-4df7-9406-56c2067c56d0
+animations:
+  rotor-spin:
+    id: rotor-spin
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: 655a8928-af90-47e9-bcc5-4d5f0603605d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: 655a8928-af90-47e9-bcc5-4d5f0603605d
+            value:
+              x: 0.0
+              y: 0.0
+              z: -45.000018327712006

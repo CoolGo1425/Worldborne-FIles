@@ -1,0 +1,4 @@
+spawn:
+  cannot-place-here: '&4Cannot place this vehicle here!'
+fuel:
+  tank-full: '&4Vehicle tank is already full!'

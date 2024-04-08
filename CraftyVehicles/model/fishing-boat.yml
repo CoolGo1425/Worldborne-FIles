@@ -1,0 +1,537 @@
+id: fishing-boat
+type: COMPOUND
+hitbox:
+  width: 1.8948198357423287
+  height: 3.0
+  depth: 1.8948198357423287
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: 0.0
+      y: 0.4721775581865484
+      z: 0.8951963143374913
+  seat-1:
+    main: false
+    offset:
+      x: 0.0
+      y: 0.4721775581865484
+      z: -1.0351014823285312
+particles: {}
+sounds: {}
+parts:
+  spruce_stairs-37247225:
+    identifier: b6e21d01-6246-45cb-a749-914560c8a8dd
+    id: spruce_stairs-37247225
+    material: SPRUCE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 0.20000000000000004
+      z: -3.3518542492831194
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-87174923:
+    identifier: b6e9600f-c7e7-4bfb-a3dc-1e0f976f037b
+    id: spruce_trapdoor-87174923
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=true]
+    offset:
+      x: -0.5004885370532672
+      y: -0.8
+      z: 0.6481457507168805
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-91500452:
+    identifier: 4f4e2e03-68bd-4be7-aa23-19512b4783cd
+    id: spruce_trapdoor-91500452
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 0.20000000000000004
+      z: -1.3518542492831194
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  lantern-93303306:
+    identifier: f117deb4-552d-4624-920b-d98aeb3a094d
+    id: lantern-93303306
+    material: LANTERN
+    data:
+      data-type: block-data
+      value: minecraft:lantern[hanging=false,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 1.2
+      z: 2.6481457507168806
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  chest-52661697:
+    identifier: f0461ff9-5be2-4b1a-94b2-d4d79774bfa8
+    id: chest-52661697
+    material: CHEST
+    data:
+      data-type: block-data
+      value: minecraft:chest[facing=south,type=single,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 0.20000000000000004
+      z: -2.3518542492831194
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-94443596:
+    identifier: 45f43839-fad9-45ff-a923-c79b541c5421
+    id: spruce_trapdoor-94443596
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -1.5004885370532672
+      y: 0.20000000000000004
+      z: -0.3518542492831195
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-48937495:
+    identifier: a74a439b-e804-4027-afb7-1405f3d0195f
+    id: spruce_trapdoor-48937495
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=true]
+    offset:
+      x: -0.5004885370532672
+      y: -0.8
+      z: 1.6481457507168806
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_planks-9850795:
+    identifier: a3ea35c5-c380-46e0-b76e-6616d008ffe7
+    id: spruce_planks-9850795
+    material: SPRUCE_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_wall_sign[facing=west,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 0.48125000000000023
+      z: 0.6481457507168805
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  spruce_planks-58701544:
+    identifier: 24ab5cd7-086a-4b99-bd20-6f3903a29290
+    id: spruce_planks-58701544
+    material: SPRUCE_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_wall_sign[facing=west,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 0.48125000000000023
+      z: -1.3518542492831194
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  spruce_trapdoor-115271570:
+    identifier: e2d64dce-8692-4084-8bd1-4177a00bac5a
+    id: spruce_trapdoor-115271570
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -1.5004885370532672
+      y: 0.20000000000000004
+      z: -2.3518542492831194
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-24511211:
+    identifier: a489b847-97a2-4484-a9db-d8938470640c
+    id: spruce_trapdoor-24511211
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 0.20000000000000004
+      z: 0.6481457507168805
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_planks-69206954:
+    identifier: 556d7d8c-6e2c-4d78-bb5d-2c7080474eea
+    id: spruce_planks-69206954
+    material: SPRUCE_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_wall_sign[facing=east,waterlogged=false]
+    offset:
+      x: 0.5995114629467329
+      y: 0.48125000000000023
+      z: 0.6481457507168805
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  spruce_trapdoor-58382461:
+    identifier: fecb6015-7dd1-46b2-bddc-938a2181dc98
+    id: spruce_trapdoor-58382461
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=true]
+    offset:
+      x: -0.5004885370532672
+      y: -0.8
+      z: -0.3518542492831195
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_slab-34283730:
+    identifier: 8cb5c2c6-a855-4db3-836d-1eba90bc60f5
+    id: spruce_slab-34283730
+    material: SPRUCE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:spruce_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 1.2
+      z: -4.35185424928312
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_planks-19722858:
+    identifier: 5ea6ddc9-21b1-4da2-9015-2279b11c4238
+    id: spruce_planks-19722858
+    material: SPRUCE_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_wall_sign[facing=east,waterlogged=false]
+    offset:
+      x: 0.5995114629467329
+      y: 0.48125000000000023
+      z: -1.3518542492831194
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  spruce_slab-112510651:
+    identifier: 542d08c2-bc60-463d-b943-55221bac2243
+    id: spruce_slab-112510651
+    material: SPRUCE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:spruce_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 0.20000000000000004
+      z: 3.6481457507168806
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-103507702:
+    identifier: 4ca20585-b482-4f5d-acd2-ed2f048fba36
+    id: spruce_trapdoor-103507702
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 0.4995114629467328
+      y: 0.20000000000000004
+      z: -0.3518542492831195
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-70290629:
+    identifier: 5ab2713d-25a6-4d74-864c-d40e3180fdc8
+    id: spruce_trapdoor-70290629
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=true]
+    offset:
+      x: -0.5004885370532672
+      y: -0.8
+      z: -1.3518542492831194
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  chest-71468288:
+    identifier: add52dd1-c38c-4bb0-8107-6711236779e6
+    id: chest-71468288
+    material: CHEST
+    data:
+      data-type: block-data
+      value: minecraft:chest[facing=north,type=single,waterlogged=false]
+    offset:
+      x: 0.49951146294673276
+      y: 0.20000000000000004
+      z: 2.748145750716881
+    rotation:
+      x: 0.0
+      y: -180.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-74286576:
+    identifier: 9970f230-d59b-4bf7-a1a3-49062960c487
+    id: spruce_trapdoor-74286576
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 0.20000000000000004
+      z: -4.35185424928312
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-44804870:
+    identifier: 3c992cf9-b3fc-4832-a4c0-048d248a380d
+    id: spruce_trapdoor-44804870
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 1.2
+      z: -3.3518542492831194
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-45777905:
+    identifier: dba282b6-faa7-4d9a-911e-4fc12c3a3266
+    id: spruce_trapdoor-45777905
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=true]
+    offset:
+      x: -0.5004885370532672
+      y: -0.8
+      z: -2.3518542492831194
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-123047476:
+    identifier: 9280bdb8-3938-49df-bb34-d758ba183296
+    id: spruce_trapdoor-123047476
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -1.5004885370532672
+      y: 0.20000000000000004
+      z: 1.6481457507168806
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-84524741:
+    identifier: b5c7f256-96d2-4ac6-ba98-3a499f981ce6
+    id: spruce_trapdoor-84524741
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 0.4995114629467328
+      y: 0.20000000000000004
+      z: -2.3518542492831194
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_stairs-65277938:
+    identifier: 0b3ac6c1-8b7f-443e-9463-d504805a9c20
+    id: spruce_stairs-65277938
+    material: SPRUCE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5004885370532672
+      y: 0.20000000000000004
+      z: 2.6481457507168806
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-78266574:
+    identifier: 074c0bd8-d28b-4f9f-92d3-4177c34bbf58
+    id: spruce_trapdoor-78266574
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 0.4995114629467328
+      y: 0.20000000000000004
+      z: 1.6481457507168806
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_fence-109393625:
+    identifier: 580db74b-8711-4f59-a448-1e3328639b10
+    id: spruce_fence-109393625
+    material: SPRUCE_FENCE
+    data:
+      data-type: block-data
+      value: minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: -0.5004885370532672
+      y: 0.20000000000000004
+      z: -0.3518542492831195
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: {}
+animations: {}

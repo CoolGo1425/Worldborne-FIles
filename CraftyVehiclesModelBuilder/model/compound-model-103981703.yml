@@ -1,0 +1,87 @@
+id: compound-model-103981703
+type: COMPOUND
+hitbox:
+  width: 2.0
+  height: 2.0
+  depth: 2.0
+seats:
+  seat-0:
+    main: false
+    offset:
+      x: 0.05021216572301941
+      y: 0.0
+      z: -0.19556051790392318
+particles:
+  particle-0:
+    type: REDSTONE
+    offset:
+      x: 0.0
+      y: 0.15169334680715701
+      z: 0.0
+    delay: 0
+    count: 3
+    dispersion: 0.1
+    data:
+      data-type: dust-options
+      red: 90
+      green: 0
+      blue: 0
+      size: 1.0
+sounds:
+  sound-0:
+    type: BLOCK_BREWING_STAND_BREW
+    delay: 2
+    volume: 0.05
+    pitch: 2.0
+    global: true
+parts:
+  part-79598881:
+    identifier: e6d74e4d-d794-4313-8ddb-843fb4ba2220
+    id: part-79598881
+    material: POLISHED_DEEPSLATE
+    offset:
+      x: -0.5
+      y: 0.30000000000000004
+      z: -0.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.19999999999999998
+      z: 0.8
+  part-47033162:
+    identifier: be2619fe-5f6b-4524-a20c-a8cfeb73f71b
+    id: part-47033162
+    material: LIME_STAINED_GLASS
+    offset:
+      x: -0.8000000000000014
+      y: 1.0
+      z: -0.8
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.6
+      y: 0.7000000000000001
+      z: 1.6000000000000003
+  part-1510503:
+    identifier: c46891f1-022c-4b50-a5f2-c3855ce45053
+    id: part-1510503
+    material: NETHERITE_BLOCK
+    offset:
+      x: -0.9999999999999999
+      y: 0.40000000000000013
+      z: -1.0000000000000002
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 0.6000000000000005
+      z: 2.0000000000000004
+bones: {}
+animations: {}

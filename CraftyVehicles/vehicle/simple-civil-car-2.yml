@@ -1,0 +1,39 @@
+id: simple-civil-car-2
+name: 'Simple Civil Car 2'
+
+exit-shortcut:
+  operator: CROUCH
+
+model: simple-civil-car-2
+
+fuel:
+  capacity: 80.0
+
+controllers:
+  main:
+    id: ground-vehicle
+
+pickup-item: 'simple-civil-car-2-spawner'
+
+physics:
+  # whether can float on liquid surfaces
+  floats: false
+  
+  gravity:
+    maximum: 2.48
+    acceleration: 0.040
+  
+  friction:
+    air: 10
+    on-unknown: 60
+    on-solid: 60
+    on-dusty: 40
+    on-snowy: 40
+    on-slippery: 30
+    on-water: 20
+    on-lava: 30
+    through-water: 50
+    through-lava: 90
+    
+  climbing:
+    block-climb-capacity: 1

@@ -1,0 +1,46 @@
+id: motocross-bike
+name: 'Motocross Bike'
+
+exit-shortcut:
+  operator: CROUCH
+
+model: motocross-bike
+
+fuel:
+  capacity: 80.0
+
+controllers:
+  main:
+    id: ground-vehicle
+    properties:
+        max-positive-acceleration: 0.45
+        
+        positive-acceleration-on-solid: 0.040
+        positive-acceleration-on-dusty: 0.035
+        positive-acceleration-on-snowy: 0.030
+        positive-acceleration-on-slippery: 0.030
+
+pickup-item: 'motocross-bike-spawner'
+
+physics:
+  # whether can float on liquid surfaces
+  floats: false
+  
+  gravity:
+    maximum: 2.48
+    acceleration: 0.040
+  
+  friction:
+    air: 10
+    on-unknown: 60
+    on-solid: 60
+    on-dusty: 40
+    on-snowy: 40
+    on-slippery: 30
+    on-water: 20
+    on-lava: 30
+    through-water: 50
+    through-lava: 90
+    
+  climbing:
+    block-climb-capacity: 1

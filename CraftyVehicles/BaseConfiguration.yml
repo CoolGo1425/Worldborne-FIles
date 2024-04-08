@@ -1,0 +1,17 @@
+ownership:
+  only-owner-can-operate: false
+fuel-system:
+  enable: true
+  bypass-creative-mode: true
+pickup-system:
+  enable: true
+  particle:
+    enable: true
+    type: CLOUD
+    dispersion: 1.5
+    amount: 20
+  sound:
+    enable: true
+    type: ENTITY_CHICKEN_EGG
+    volume: 1.5
+    pitch: 1.0

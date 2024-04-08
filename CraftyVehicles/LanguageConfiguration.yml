@@ -1,0 +1,9 @@
+command:
+  unknown-vehicle: '&4A vehicle with that name doesn''t exist!'
+spawn:
+  cannot-place-here: '&4Cannot place this vehicle here!'
+fuel:
+  tank-full: '&4Vehicle tank is already full!'
+gui:
+  ownership:
+    not-the-owner: '&4You cannot use a vehicle you don''t own!'

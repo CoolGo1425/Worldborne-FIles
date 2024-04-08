@@ -1,0 +1,56 @@
+id: compound-model-72327435
+type: COMPOUND
+hitbox:
+  width: 2.0
+  height: 1.376715902691165
+  depth: 2.0
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+particles: {}
+sounds:
+  sound-0:
+    type: BLOCK_LAVA_POP
+    delay: 0
+    volume: 1.0
+    pitch: 0.5
+    global: true
+parts:
+  part-106846646:
+    identifier: 0b8920ec-79dd-42da-8394-d59ff29baf3e
+    id: part-106846646
+    material: OAK_PLANKS
+    offset:
+      x: -0.9999999999999998
+      y: 0.6
+      z: -0.9999999999999982
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0000000000000004
+      y: 0.20000000000000015
+      z: 2.0
+  part-80169308:
+    identifier: 0ca2af43-8696-4173-a56a-0c1ab3276c40
+    id: part-80169308
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.5
+      y: 0.6999999999999997
+      z: -0.6
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0000000000000002
+      y: 0.19999999999999993
+      z: 1.1
+bones: {}
+animations: {}

@@ -1,0 +1,12 @@
+fuel-item:
+  result: fuel
+  shapeless:
+  - "gunpowder"
+  - "blaze_powder"
+  
+fishing-boat-spawner-item:
+  result: fishing-boat-spawner
+  shaped:
+  - "[chest][lantern][chest]"
+  - "[spruce_planks][spruce_planks][spruce_planks]"
+  - "[][][]"

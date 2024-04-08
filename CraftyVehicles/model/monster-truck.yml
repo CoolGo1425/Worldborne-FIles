@@ -1,0 +1,1537 @@
+id: monster-truck
+type: COMPOUND
+hitbox:
+  width: 2.9211950355559804
+  height: 7.0
+  depth: 2.9211950355559804
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: -0.008581563170615184
+      y: 4.0381624672784096
+      z: -0.02732296467562298
+particles: {}
+sounds: {}
+parts:
+  smooth_stone_slab-5095951:
+    identifier: ec4969f3-2505-43a2-bebb-7963795ab57f
+    id: smooth_stone_slab-5095951
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 1.8000000000000007
+      z: 0.33181818326314283
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-103043037:
+    identifier: d1996240-3a2e-4751-a8aa-b0da231b35eb
+    id: quartz_slab-103043037
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 3.8000000000000007
+      z: -4.6681818167368565
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 3.0
+  cobblestone_wall-103619307:
+    identifier: 27e1ea12-9bdd-4164-8fb2-f3a19ed3841d
+    id: cobblestone_wall-103619307
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: -1.5
+      y: 4.799999999999997
+      z: -2.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_brick_stairs-50867491:
+    identifier: 8924be9d-a52f-457a-bb98-5af8ee31efe0
+    id: stone_brick_stairs-50867491
+    material: STONE_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_stairs[facing=west,half=top,shape=outer_right,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 2.8000000000000007
+      z: 3.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_brick_stairs-122991157:
+    identifier: 53920746-2232-444f-8ba2-5db2b2e0e200
+    id: stone_brick_stairs-122991157
+    material: STONE_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_stairs[facing=east,half=top,shape=outer_left,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 2.8000000000000007
+      z: 3.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-85915791:
+    identifier: 59cbe2dc-e3f5-40d4-bc63-e74153a704c8
+    id: part-85915791
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5000000000000002
+      y: 3.3000000000000007
+      z: 3.331818183263141
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-75486861:
+    identifier: dcdd2285-6ae1-475d-827c-82627e91f2a8
+    id: cobblestone_wall-75486861
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: 0.5
+      y: 2.8000000000000007
+      z: 2.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_brick_stairs-3894411:
+    identifier: ebe3c0d7-2860-47fb-bb70-132f167dd97b
+    id: stone_brick_stairs-3894411
+    material: STONE_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 2.8000000000000007
+      z: 3.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_stained_glass_pane-74899524:
+    identifier: f20b6638-f8fb-4fdc-adfd-a5888beda53a
+    id: black_stained_glass_pane-74899524
+    material: BLACK_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:black_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    offset:
+      x: 0.5
+      y: 4.799999999999997
+      z: 1.3318181832631428
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-50369631:
+    identifier: b43a1119-e0e2-4295-8541-3ba5b47e5e51
+    id: cobblestone_wall-50369631
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: -1.5
+      y: 2.8000000000000007
+      z: 2.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  nether_brick_fence-33810390:
+    identifier: d1ce6c0e-9f13-4cd7-8524-aa1222edd887
+    id: nether_brick_fence-33810390
+    material: NETHER_BRICK_FENCE
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    offset:
+      x: -1.5
+      y: 5.799999999999997
+      z: -2.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-1478230:
+    identifier: 2798af63-6439-47c2-a919-04606a3933e3
+    id: part-1478230
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: -2.299999999999999
+      y: 1.3000000000000003
+      z: -3.1681818167368574
+    rotation:
+      x: 0.0
+      y: 90.1
+      z: 0.0
+    scale:
+      x: 5.0
+      y: 5.0
+      z: 4.0
+  cobblestone_wall-47004923:
+    identifier: fb1abbdb-f80c-4353-a6af-c91e06bd779b
+    id: cobblestone_wall-47004923
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]
+    offset:
+      x: 0.5
+      y: 4.799999999999997
+      z: -2.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_brick_stairs-67152892:
+    identifier: 3c26dc9f-05d2-43df-8f6e-d73a36ff5c1f
+    id: stone_brick_stairs-67152892
+    material: STONE_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 2.8000000000000007
+      z: -4.668181816736857
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-78145190:
+    identifier: 0244d632-f17e-421d-bac2-a2f6a7cee3ec
+    id: smooth_stone_slab-78145190
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.7999999999999999
+      z: -2.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  orange_carpet-93779956:
+    identifier: ffa9955d-5763-416b-b48c-17cc13c58e55
+    id: orange_carpet-93779956
+    material: ORANGE_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:orange_carpet
+    offset:
+      x: -0.5
+      y: 4.899999999999997
+      z: 3.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  nether_brick_slab-108128715:
+    identifier: e3061357-9ac4-4c14-bcf8-a97ba2724a46
+    id: nether_brick_slab-108128715
+    material: NETHER_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 1.8000000000000007
+      z: -0.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-97708317:
+    identifier: 799b7e4c-b315-471a-9edb-dbb5c10550c4
+    id: part-97708317
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: -2.299999999999999
+      y: 1.3000000000000003
+      z: 2.8318181832631426
+    rotation:
+      x: 0.0
+      y: 90.1
+      z: 0.0
+    scale:
+      x: 5.0
+      y: 5.0
+      z: 4.0
+  part-17387132:
+    identifier: 5342404a-6913-4b91-baaf-fb5f08b4fa75
+    id: part-17387132
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.4999999999999996
+      y: 3.3
+      z: -2.16818181673686
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.0
+      y: 1.0
+      z: 4.0
+  smooth_stone_slab-83001800:
+    identifier: 271d995f-6e76-4195-9f10-ff9441ea6fd2
+    id: smooth_stone_slab-83001800
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 1.8000000000000007
+      z: -1.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-53863604:
+    identifier: 4d7a52ee-868c-4ca0-a53f-b673cf52e0e8
+    id: cobblestone_wall-53863604
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: -1.5
+      y: 2.8000000000000007
+      z: -3.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-22930039:
+    identifier: 5b6606bb-5532-43e0-9669-2aa5bddce8a3
+    id: cobblestone_wall-22930039
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]
+    offset:
+      x: -0.5
+      y: 1.8000000000000007
+      z: -3.1681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-116513225:
+    identifier: 9a151471-e391-43d2-8627-0503ee413e92
+    id: smooth_stone_slab-116513225
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.7999999999999999
+      z: 1.3318181832631428
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-22621759:
+    identifier: e6fff921-4338-458e-99ca-7e62d3feea1d
+    id: part-22621759
+    material: BLACK_STAINED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:black_stained_glass
+    offset:
+      x: 0.4999999999999992
+      y: 4.799999999999997
+      z: -0.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 2.0
+  smooth_stone_slab-106889996:
+    identifier: f1757c11-e814-4e82-90de-a8fc6890e88a
+    id: smooth_stone_slab-106889996
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.7999999999999999
+      z: 1.3318181832631428
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-11209897:
+    identifier: d687b669-29a1-4947-9e21-f15362928426
+    id: smooth_stone_slab-11209897
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 1.8000000000000007
+      z: -1.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-71471901:
+    identifier: 512f1cc9-47cc-414a-92dd-6abb51ee78e5
+    id: part-71471901
+    material: WHITE_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:white_carpet
+    offset:
+      x: -1.5
+      y: 5.799999999999998
+      z: -1.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.0
+      y: 1.0
+      z: 4.0
+  part-41969362:
+    identifier: 12826ac1-8cc0-443d-a9b7-22901d1a5264
+    id: part-41969362
+    material: WHITE_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:white_carpet
+    offset:
+      x: -1.5
+      y: 4.799999999999997
+      z: 2.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.0
+      y: 1.0
+      z: 2.0
+  part-105839415:
+    identifier: 4bc9baf4-b107-4d7b-ba4b-71358ba09a80
+    id: part-105839415
+    material: ORANGE_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:orange_carpet
+    offset:
+      x: -0.5
+      y: 5.899999999999997
+      z: -0.6681818167368584
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-107552504:
+    identifier: 03a93d04-ef7f-480f-9445-fdffb3260d7d
+    id: smooth_stone_slab-107552504
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.7999999999999999
+      z: -2.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-80027499:
+    identifier: 30f1cdb1-4903-4e97-a06c-dff63374d039
+    id: cobblestone_wall-80027499
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: 0.5
+      y: 0.7999999999999999
+      z: 2.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-112015279:
+    identifier: db132e3b-5638-4740-8ae0-4e73faee3a47
+    id: part-112015279
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5000000000000002
+      y: 3.3000000000000007
+      z: -4.668181816736858
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-115694389:
+    identifier: b110c316-00e9-4cad-a7b3-094f8b7dd0a8
+    id: cobblestone_wall-115694389
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=tall]
+    offset:
+      x: -1.5
+      y: 0.7999999999999999
+      z: 2.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  nether_brick_fence-290159:
+    identifier: d0b4de47-e4b4-4b0f-b3a6-e0f276a761a4
+    id: nether_brick_fence-290159
+    material: NETHER_BRICK_FENCE
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    offset:
+      x: 0.5
+      y: 5.799999999999997
+      z: -2.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-108722407:
+    identifier: b091ffb4-479c-432e-a61d-d4d3448aefc5
+    id: cobblestone_wall-108722407
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: -1.5
+      y: 1.8000000000000007
+      z: -3.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-23784642:
+    identifier: 28d87fac-b741-4f01-b1e2-1b1a3d370187
+    id: part-23784642
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: 2.4000000000000004
+      y: 1.3000000000000003
+      z: 2.8318181832631426
+    rotation:
+      x: 0.0
+      y: 90.1
+      z: 0.0
+    scale:
+      x: 5.0
+      y: 5.0
+      z: 4.0
+  cobblestone_wall-111641247:
+    identifier: 8578e4a6-b9e7-45b8-bebf-f9853d7d56d2
+    id: cobblestone_wall-111641247
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: -0.5
+      y: 0.7999999999999999
+      z: 2.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  orange_carpet-41479372:
+    identifier: dbffa1e5-7402-43bf-bd47-f81523874e78
+    id: orange_carpet-41479372
+    material: ORANGE_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:orange_carpet
+    offset:
+      x: -0.5
+      y: 4.899999999999997
+      z: 2.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  nether_brick_stairs-29997002:
+    identifier: e8c8360b-45f5-4121-9ed8-cc6d53c0c34f
+    id: nether_brick_stairs-29997002
+    material: NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 3.900000000000001
+      z: -0.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-49969228:
+    identifier: 13fdf84e-7357-4d29-9dc7-e4633e30d4b4
+    id: part-49969228
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: 2.4000000000000004
+      y: 1.3000000000000003
+      z: -3.1681818167368574
+    rotation:
+      x: 0.0
+      y: 90.1
+      z: 0.0
+    scale:
+      x: 5.0
+      y: 5.0
+      z: 4.0
+  cobblestone_wall-100338810:
+    identifier: 08eb57d1-8f77-4ca6-9e66-a5a0fce2d892
+    id: cobblestone_wall-100338810
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: 0.5
+      y: 2.8000000000000007
+      z: -3.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-87478975:
+    identifier: 6dccb134-8bc8-43eb-88c0-fd2d21642c65
+    id: cobblestone_wall-87478975
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: 0.5
+      y: 1.8000000000000007
+      z: -3.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-30348235:
+    identifier: b1adf8db-5fee-4b04-9999-8361d0e19894
+    id: part-30348235
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.4999999999999998
+      y: 3.800000000000001
+      z: -4.668181816736858
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 9.0
+  quartz_slab-95030091:
+    identifier: a2e4d9d5-4fff-4e73-bb41-f44047b7ea1a
+    id: quartz_slab-95030091
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 2.8000000000000007
+      z: 0.33181818326314283
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-109731735:
+    identifier: 45a890cc-552b-4c99-8f98-346580cc9fbf
+    id: quartz_stairs-109731735
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 4.3
+      z: -4.668181816736857
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-108369479:
+    identifier: 8bdcef79-4dd3-4621-8c53-47ff2dbab3f4
+    id: part-108369479
+    material: STONE_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -1.4999999999999993
+      y: 2.8000000000000007
+      z: -1.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 3.0
+  part-42009706:
+    identifier: 8cc106fd-9e6f-4457-a497-0c5d58f2366e
+    id: part-42009706
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.4999999999999999
+      y: 3.3000000000000007
+      z: -4.668181816736858
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-114763947:
+    identifier: 3bbd09bd-1405-432a-83b7-b5cc1741866c
+    id: cobblestone_wall-114763947
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=low]
+    offset:
+      x: -0.5
+      y: 0.7999999999999999
+      z: -3.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_stained_glass_pane-118665503:
+    identifier: 7f935a99-b3e9-4090-bb16-dac0ff492ee4
+    id: black_stained_glass_pane-118665503
+    material: BLACK_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:black_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    offset:
+      x: -1.5
+      y: 4.799999999999997
+      z: 1.3318181832631428
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  orange_carpet-104378538:
+    identifier: 69c17dae-2f4d-49cb-9f34-c643654582de
+    id: orange_carpet-104378538
+    material: ORANGE_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:orange_carpet
+    offset:
+      x: -0.5
+      y: 5.899999999999997
+      z: 1.3318181832631428
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-55363276:
+    identifier: beab865e-80c8-4693-90f2-fdc5ca5ac59f
+    id: part-55363276
+    material: ORANGE_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:orange_carpet
+    offset:
+      x: -0.5
+      y: 5.899999999999997
+      z: 0.33181818326314194
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-90768940:
+    identifier: 4f626388-997b-4916-95f2-4b68acf8e8c5
+    id: smooth_stone_slab-90768940
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 1.8000000000000007
+      z: 0.33181818326314283
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-27425790:
+    identifier: 92aaeb4a-b9d6-4f66-8549-43de2018315c
+    id: part-27425790
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 3.3000000000000007
+      z: 3.331818183263141
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-121030518:
+    identifier: b8399830-870c-4da2-a46e-e6b49811a581
+    id: cobblestone_wall-121030518
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: -1.5
+      y: 0.7999999999999999
+      z: -3.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_stained_glass_pane-49695286:
+    identifier: e3d82f0f-fd81-48df-aa6c-6ee127296f44
+    id: black_stained_glass_pane-49695286
+    material: BLACK_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: -0.5
+      y: 4.799999999999997
+      z: 1.3318181832631428
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-26414413:
+    identifier: fa647b67-688b-4ee2-b078-0ddcba254d3f
+    id: cobblestone_wall-26414413
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: -1.5
+      y: 1.8000000000000007
+      z: 2.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-56191357:
+    identifier: a4237cb8-ed1e-42a1-b2d0-b574df2ab6d7
+    id: cobblestone_wall-56191357
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: 0.5
+      y: 0.7999999999999999
+      z: -3.6681818167368574
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_wool-31023936:
+    identifier: 6ab0d3fa-a773-48f3-bae6-1c15d696e4cc
+    id: gray_wool-31023936
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_wool
+    offset:
+      x: -0.5
+      y: 3.8000000000000007
+      z: 3.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-42264521:
+    identifier: d7a0e61f-1f7c-4859-bb61-a84df23e51d3
+    id: part-42264521
+    material: BLACK_STAINED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:black_stained_glass
+    offset:
+      x: -1.5000000000000009
+      y: 4.799999999999997
+      z: -0.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 2.0
+  stone_brick_stairs-10032999:
+    identifier: ca4d28fe-d867-4c92-9f14-e044cefd7a6c
+    id: stone_brick_stairs-10032999
+    material: STONE_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 2.8000000000000007
+      z: -4.668181816736857
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_block-35403305:
+    identifier: a7df1c19-2565-4ee2-b48f-d5d474834374
+    id: quartz_block-35403305
+    material: QUARTZ_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:quartz_block
+    offset:
+      x: -1.5
+      y: 4.799999999999997
+      z: -1.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.0
+      y: 1.0
+      z: 1.0
+  quartz_block-1653237:
+    identifier: fe1423c6-e4c2-4061-b5ed-f622d6be5e62
+    id: quartz_block-1653237
+    material: QUARTZ_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:quartz_block
+    offset:
+      x: -0.5
+      y: 3.8000000000000007
+      z: -1.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_brick_stairs-19904527:
+    identifier: 6c108ffb-bc64-409a-b1a0-dc5588b6c9c0
+    id: stone_brick_stairs-19904527
+    material: STONE_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 2.8000000000000007
+      z: -1.668181816736857
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 3.0
+  part-10159028:
+    identifier: d4b241bc-7fed-49ff-ad0f-20e87e8c8293
+    id: part-10159028
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 3.800000000000001
+      z: -4.668181816736858
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 9.0
+  quartz_block-30438859:
+    identifier: ed2402be-9e0b-4ded-85c7-941e590d8c2e
+    id: quartz_block-30438859
+    material: QUARTZ_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:quartz_block
+    offset:
+      x: -0.5
+      y: 3.8000000000000007
+      z: 1.331818183263142
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 2.0
+  nether_brick_slab-107895489:
+    identifier: 20f81dd6-9382-41f9-9ae6-fd3a89e420b8
+    id: nether_brick_slab-107895489
+    material: NETHER_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 1.8000000000000007
+      z: -0.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  orange_carpet-14828765:
+    identifier: cc94f5fa-4155-4beb-9f75-667308ef759f
+    id: orange_carpet-14828765
+    material: ORANGE_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:orange_carpet
+    offset:
+      x: -0.5
+      y: 5.899999999999997
+      z: -1.6681818167368572
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-10156125:
+    identifier: 3ff702b4-bcff-42e8-9eca-24a54deecb81
+    id: cobblestone_wall-10156125
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: -0.5
+      y: 1.8000000000000007
+      z: 1.9318181832631434
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-102244782:
+    identifier: b9a8b28c-7253-4dd5-bc9c-713d0670ca7f
+    id: cobblestone_wall-102244782
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: 0.5
+      y: 1.8000000000000007
+      z: 2.3318181832631426
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_brick_stairs-17834705:
+    identifier: f491adb1-ca61-4597-8192-e6c2f1875bfd
+    id: stone_brick_stairs-17834705
+    material: STONE_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_stairs[facing=west,half=top,shape=outer_left,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 2.8000000000000007
+      z: -4.668181816736857
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones:
+  back-wheels:
+    identifier: a03e25f6-c7e9-45aa-b778-46a83611900c
+    id: back-wheels
+    pivot:
+      x: 0.0
+      y: 1.2999999999999998
+      z: -3.2
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  front-wheels:
+    identifier: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+    id: front-wheels
+    pivot:
+      x: 1.0269562977782698E-15
+      y: 1.3
+      z: 2.8000000000000003
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+rig:
+  2798af63-6439-47c2-a919-04606a3933e3:
+    identifier: 2798af63-6439-47c2-a919-04606a3933e3
+    parent: a03e25f6-c7e9-45aa-b778-46a83611900c
+  a03e25f6-c7e9-45aa-b778-46a83611900c:
+    identifier: a03e25f6-c7e9-45aa-b778-46a83611900c
+    children:
+    - 2798af63-6439-47c2-a919-04606a3933e3
+    - 13fdf84e-7357-4d29-9dc7-e4633e30d4b4
+  4511a6d7-ffa9-456f-a058-c7167b4a26b3:
+    identifier: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+    children:
+    - 799b7e4c-b315-471a-9edb-dbb5c10550c4
+    - 28d87fac-b741-4f01-b1e2-1b1a3d370187
+  799b7e4c-b315-471a-9edb-dbb5c10550c4:
+    identifier: 799b7e4c-b315-471a-9edb-dbb5c10550c4
+    parent: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+  28d87fac-b741-4f01-b1e2-1b1a3d370187:
+    identifier: 28d87fac-b741-4f01-b1e2-1b1a3d370187
+    parent: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+  13fdf84e-7357-4d29-9dc7-e4633e30d4b4:
+    identifier: 13fdf84e-7357-4d29-9dc7-e4633e30d4b4
+    parent: a03e25f6-c7e9-45aa-b778-46a83611900c
+animations:
+  wheel-spin:
+    id: wheel-spin
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: a03e25f6-c7e9-45aa-b778-46a83611900c
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: a03e25f6-c7e9-45aa-b778-46a83611900c
+            value:
+              x: 45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+            value:
+              x: 45.00000808242825
+              y: 0.0
+              z: 0.0
+    states-to-apply: moving
+  turn_right:
+    id: turn_right
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: a03e25f6-c7e9-45aa-b778-46a83611900c
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+            value:
+              x: 0.0
+              y: -8.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: a03e25f6-c7e9-45aa-b778-46a83611900c
+            value:
+              x: 45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+            value:
+              x: 45.00006272394161
+              y: -8.0
+              z: 3.0
+    states-to-apply: moving_backwards_turning_right,moving_turning_right
+  turn_left:
+    id: turn_left
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: a03e25f6-c7e9-45aa-b778-46a83611900c
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+            value:
+              x: 0.0
+              y: 8.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: a03e25f6-c7e9-45aa-b778-46a83611900c
+            value:
+              x: 45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+            value:
+              x: 45.00006272394161
+              y: 8.000000791802712
+              z: -3.0000000834826053
+    states-to-apply: moving_backwards_turning_left,moving_turning_left
+  wheel-spin-backwards:
+    id: wheel-spin-backwards
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: a03e25f6-c7e9-45aa-b778-46a83611900c
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: a03e25f6-c7e9-45aa-b778-46a83611900c
+            value:
+              x: -45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 4511a6d7-ffa9-456f-a058-c7167b4a26b3
+            value:
+              x: -45.0
+              y: 0.0
+              z: 0.0
+    states-to-apply: moving_backwards

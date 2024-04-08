@@ -1,0 +1,3187 @@
+id: viking-ship
+type: COMPOUND
+hitbox:
+  width: 4.884136072891358
+  height: 4.669094441607656
+  depth: 4.884136072891358
+seats:
+  seat-0:
+    main: false
+    offset:
+      x: 1.8983353273707535
+      y: 0.3807502517071484
+      z: 2.796735852730719
+  seat-1:
+    main: false
+    offset:
+      x: -1.9232358296213519
+      y: 0.3807502517071484
+      z: -3.3151438926482335
+  seat-2:
+    main: false
+    offset:
+      x: -1.9765450669829616
+      y: 0.3807502517071484
+      z: 1.1870954079404925
+  seat-3:
+    main: false
+    offset:
+      x: 1.8983353273707535
+      y: 0.3807502517071484
+      z: -3.3151438926482335
+  seat-4:
+    main: false
+    offset:
+      x: -2.0116274688861138
+      y: 0.3807502517071484
+      z: 2.796735852730719
+  seat-5:
+    main: false
+    offset:
+      x: -1.938484668145786
+      y: 0.3807502517071484
+      z: -0.3507039150722594
+  seat-6:
+    main: false
+    offset:
+      x: -1.925759638677995
+      y: 0.3807502517071484
+      z: -4.864947154007781
+  seat-7:
+    main: false
+    offset:
+      x: -1.9037575090201764
+      y: 0.3807502517071484
+      z: -1.8310382749277518
+  seat-8:
+    main: true
+    offset:
+      x: 0.0
+      y: 0.9339043298858825
+      z: -6.94476747821663
+  seat-9:
+    main: false
+    offset:
+      x: 1.8983353273707535
+      y: 0.3807502517071484
+      z: 1.1870954079404925
+  seat-10:
+    main: false
+    offset:
+      x: 1.8983353273707535
+      y: 0.3807502517071484
+      z: -1.8310382749277518
+  seat-11:
+    main: false
+    offset:
+      x: 1.8983353273707535
+      y: 0.3807502517071484
+      z: -4.864947154007781
+  seat-12:
+    main: false
+    offset:
+      x: 1.8983353273707535
+      y: 0.3807502517071484
+      z: -0.3507039150722594
+particles: {}
+sounds: {}
+parts:
+  white_wool-114093614:
+    identifier: 53511a9b-467e-4815-9939-5b007e03d968
+    id: white_wool-114093614
+    material: WHITE_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:white_wool
+    offset:
+      x: -0.6340782122905028
+      y: 6.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-99541043:
+    identifier: 6401bccc-740e-4761-b3f9-ab9e29c80694
+    id: spruce_trapdoor-99541043
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -9.634078212290502
+      y: 2.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_banner-34618905:
+    identifier: 25479322-43fb-40c6-a9b1-6ad2ffc07fa3
+    id: red_banner-34618905
+    material: RED_BANNER
+    data:
+      data-type: block-data
+      value: minecraft:red_wall_banner[facing=west]
+    offset:
+      x: -1.0340782122905017
+      y: 4.1
+      z: 2.4001396626733533
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-27175302:
+    identifier: 386c9d19-c1ad-4739-923d-2d31793bc157
+    id: oak_stairs-27175302
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 0.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-23533758:
+    identifier: 7a97ff55-7748-493d-b9a8-3bc13991728e
+    id: oak_planks-23533758
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 0.3659217877094978
+      y: 0.0
+      z: 1.3966267335344118E-4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 1.0
+      z: 2.5
+  oak_slab-89939879:
+    identifier: 36638fe7-6412-49aa-8a04-38c46b1d9fa0
+    id: oak_slab-89939879
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.6340782122905028
+      y: 7.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-75169389:
+    identifier: 0f646e99-baf6-4038-88cf-e52f2f3057af
+    id: spruce_trapdoor-75169389
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.6340782122905028
+      y: 7.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-52413452:
+    identifier: 59b7586a-790b-4847-ab32-85b5bfca1c78
+    id: oak_stairs-52413452
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -8.634078212290502
+      y: 1.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_banner-112243131:
+    identifier: 6de83b8f-d9d3-424f-8ddb-05a171851cde
+    id: red_banner-112243131
+    material: RED_BANNER
+    data:
+      data-type: block-data
+      value: minecraft:red_wall_banner[facing=west]
+    offset:
+      x: -1.0340782122905017
+      y: 2.1
+      z: 1.3966267335360771E-4
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-121301609:
+    identifier: 9392edc2-077c-4c5f-b639-b4b5266d9075
+    id: spruce_trapdoor-121301609
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -10.634078212290502
+      y: 5.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-5912072:
+    identifier: ede531b4-74f2-405c-8c6b-4a91cab381b8
+    id: part-5912072
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -4.634078212290504
+      y: 0.0
+      z: 2.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-10047711:
+    identifier: 5fbee594-1384-4580-b0d9-97aa2c4d7ed4
+    id: oak_planks-10047711
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 5.365921787709497
+      y: 0.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-41190142:
+    identifier: 7e5c22f6-cb7b-4b6e-b884-cd240dfb7491
+    id: oak_planks-41190142
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -0.6340782122905028
+      y: 7.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-43732913:
+    identifier: f58517d5-52c5-4159-8401-b121096b91b4
+    id: oak_planks-43732913
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 6.365921787709497
+      y: 2.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-15384155:
+    identifier: e3fb9647-524c-43a9-a826-4312ba2440e5
+    id: oak_stairs-15384155
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -7.634078212290503
+      y: 1.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_wool-91290888:
+    identifier: 9f9157c9-a0d4-4319-9308-d68954412fba
+    id: red_wool-91290888
+    material: RED_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:red_wool
+    offset:
+      x: -0.6340782122905028
+      y: 6.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_slab-40487852:
+    identifier: aa52b036-e575-4c97-8c38-c7653d8993d9
+    id: spruce_slab-40487852
+    material: SPRUCE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:spruce_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 8.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-81800851:
+    identifier: 5118652b-233b-421e-a142-127987e26f11
+    id: oak_stairs-81800851
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -8.634078212290502
+      y: 0.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_planks-76058913:
+    identifier: f8b55317-8886-4b9a-95d9-28d121f5ce90
+    id: spruce_planks-76058913
+    material: SPRUCE_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: 0.36592178770949724
+      y: 0.28125
+      z: -2.5998603373266467
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  spruce_planks-30416763:
+    identifier: 32008ae5-a425-4e25-9034-d957b4226ff5
+    id: spruce_planks-30416763
+    material: SPRUCE_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: 0.36592178770949724
+      y: 0.28125
+      z: 2.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 0.5
+      z: 0.09375
+  oak_stairs-16157368:
+    identifier: 118dda15-a7e7-47fc-82e8-bd28aff28562
+    id: oak_stairs-16157368
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -6.634078212290503
+      y: 0.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-75101854:
+    identifier: 2752347a-4697-4204-b917-b958f2e4437c
+    id: spruce_trapdoor-75101854
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 4.365921787709497
+      y: 1.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-4833252:
+    identifier: a9641f95-2c5b-44bc-ae4d-aaf4f733cb8d
+    id: oak_stairs-4833252
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 2.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobblestone_wall-115288194:
+    identifier: 6ef34d72-b8ae-4b33-b6e8-97700cd8e99f
+    id: cobblestone_wall-115288194
+    material: COBBLESTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: -0.6340782122905028
+      y: 1.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_slab-22580532:
+    identifier: 19442c13-e95c-408a-8e51-ab981058fe8e
+    id: oak_slab-22580532
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_slab[type=top,waterlogged=false]
+    offset:
+      x: 8.365921787709498
+      y: 5.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-25312117:
+    identifier: 7ca5b142-ae90-441f-b87a-4f2d191405d9
+    id: oak_stairs-25312117
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -7.634078212290503
+      y: 0.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-77604212:
+    identifier: 35ab9374-8ace-4368-90f7-ddaea8e9e032
+    id: oak_planks-77604212
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -6.634078212290503
+      y: 0.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_stairs-69848258:
+    identifier: 409edc3a-2880-43b0-aa90-75253c081505
+    id: spruce_stairs-69848258
+    material: SPRUCE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 7.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-46984269:
+    identifier: 999cd78d-054c-4178-824c-c222d9b947e5
+    id: oak_stairs-46984269
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -8.634078212290502
+      y: 3.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_planks-10308689:
+    identifier: 28893df5-3f05-435f-ae80-01c6958261da
+    id: spruce_planks-10308689
+    material: SPRUCE_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: -3.6340782122905027
+      y: 0.28125
+      z: -2.5998603373266467
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  part-58380000:
+    identifier: 76dd8d84-cd7d-4b77-a2f3-32e0b10c35a7
+    id: part-58380000
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -1.634078212290503
+      y: 0.0
+      z: 1.3966267335344118E-4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 1.0
+      z: 2.5
+  oak_slab-8250414:
+    identifier: c5285e24-5a99-4e57-8884-d373085861f0
+    id: oak_slab-8250414
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_slab[type=double,waterlogged=false]
+    offset:
+      x: -0.6340782122905028
+      y: 0.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-67325763:
+    identifier: 5e10c514-4fc7-4840-984d-36ec76673b74
+    id: spruce_trapdoor-67325763
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -7.634078212290503
+      y: 2.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-28372052:
+    identifier: 61896c07-a875-4d54-a85a-ddb47726ddba
+    id: oak_stairs-28372052
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -8.634078212290502
+      y: 2.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-32928887:
+    identifier: 3945d7aa-85a2-40d3-8b79-7adc1c38cdd1
+    id: dark_oak_trapdoor-32928887
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 2.3659217877094973
+      y: 0.0
+      z: 2.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-1671021:
+    identifier: e9f6bfe5-5f8b-427a-97fb-2a8c5b73869a
+    id: part-1671021
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -3.634078212290504
+      y: 0.0
+      z: -2.499860337326647
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 1.0
+      z: 2.5
+  spruce_fence-94625077:
+    identifier: 43fcbfa2-0308-4e47-b2fb-6601eb369dfb
+    id: spruce_fence-94625077
+    material: SPRUCE_FENCE
+    data:
+      data-type: block-data
+      value: minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    offset:
+      x: -0.6340782122905028
+      y: 8.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_fence-20535033:
+    identifier: e93a8dae-ab74-4d99-bcfe-5229a303f209
+    id: spruce_fence-20535033
+    material: SPRUCE_FENCE
+    data:
+      data-type: block-data
+      value: minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    offset:
+      x: -0.6340782122905028
+      y: 2.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-113709433:
+    identifier: e245a6aa-e053-4798-903d-dfc47ec1382c
+    id: oak_stairs-113709433
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -8.634078212290502
+      y: 2.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-59895669:
+    identifier: 47fd5751-c687-4b7f-8697-f785ad0d5c82
+    id: part-59895669
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -1.634078212290503
+      y: 0.0
+      z: -2.499860337326647
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 1.0
+      z: 2.5
+  red_wool-43241867:
+    identifier: 960426de-eb1c-4295-9d58-6eadff9c244b
+    id: red_wool-43241867
+    material: RED_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:red_wool
+    offset:
+      x: -0.6340782122905028
+      y: 6.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-91131935:
+    identifier: b3a85df9-78b6-4d30-b274-783775ae7a83
+    id: oak_stairs-91131935
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 5.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_planks-62799637:
+    identifier: 06b9a61b-80d2-4863-b06d-c1c56f429a08
+    id: spruce_planks-62799637
+    material: SPRUCE_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: -2.6340782122905027
+      y: 0.28125
+      z: -2.5998603373266467
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  oak_stairs-18503160:
+    identifier: 873e727c-dd1e-48c5-9200-b56be7e40606
+    id: oak_stairs-18503160
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 0.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-29716509:
+    identifier: 55650ef9-4dde-4905-81a4-4354b47c7718
+    id: part-29716509
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -3.634078212290504
+      y: 0.0
+      z: 1.3966267335344118E-4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 1.0
+      z: 2.5
+  spruce_trapdoor-55436466:
+    identifier: 944780c6-092a-49f4-b173-cca3eb5ead6e
+    id: spruce_trapdoor-55436466
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 4.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-90349300:
+    identifier: dd7bb677-eef2-4ee9-9074-eefc862fe3e1
+    id: oak_stairs-90349300
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 7.365921787709497
+      y: 3.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-93565328:
+    identifier: c85a739b-516c-4d27-861f-8f86d6544239
+    id: oak_stairs-93565328
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 7.365921787709497
+      y: 7.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-22061707:
+    identifier: 5a20ce56-bfc9-4f42-9f59-a96d88d89f38
+    id: spruce_trapdoor-22061707
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -6.634078212290503
+      y: 1.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-3174950:
+    identifier: d554e85e-bbbd-42cb-8665-24ee3cf587f2
+    id: oak_stairs-3174950
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -8.634078212290502
+      y: 1.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-33175681:
+    identifier: 24eeb7ca-8b0e-4ed4-b03d-c877c0f0de02
+    id: dark_oak_trapdoor-33175681
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 2.3659217877094973
+      y: 0.0
+      z: -3.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-84669337:
+    identifier: aa92b2d5-ae2b-4cfd-8c7e-997b9a160249
+    id: spruce_trapdoor-84669337
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 7.365921787709497
+      y: 2.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-29435229:
+    identifier: 93c15934-536d-49fc-8ba3-0459ea04fd72
+    id: oak_stairs-29435229
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 9.365921787709498
+      y: 5.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-2626294:
+    identifier: 6ac40b69-a60e-4614-9cbc-b02dcb27ee17
+    id: oak_stairs-2626294
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 1.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-120992296:
+    identifier: a93e2cac-dedb-4320-b727-6e9bbf1423ae
+    id: spruce_trapdoor-120992296
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 2.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-53097041:
+    identifier: 252c807b-fe9e-45f7-849c-9d2ccdb68432
+    id: oak_stairs-53097041
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 4.365921787709497
+      y: 0.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-8841519:
+    identifier: e5a74b32-1bb9-46ae-b719-97ab86cc09a2
+    id: spruce_trapdoor-8841519
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 7.365921787709497
+      y: 2.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_banner-27836371:
+    identifier: 186b680c-3aeb-49f1-907f-dd8ee541b427
+    id: red_banner-27836371
+    material: RED_BANNER
+    data:
+      data-type: block-data
+      value: minecraft:red_wall_banner[facing=west]
+    offset:
+      x: -1.0340782122905017
+      y: 4.1
+      z: -2.3998603373266465
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-2268814:
+    identifier: f55785d6-37a8-461e-9f38-5365eb686d9b
+    id: oak_stairs-2268814
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 7.365921787709497
+      y: 5.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-86679627:
+    identifier: 80d841b7-8196-4b3f-a991-6f373350d43b
+    id: oak_stairs-86679627
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 1.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-104660488:
+    identifier: 7bd3940a-be2d-45b8-9c40-332acece8c08
+    id: dark_oak_trapdoor-104660488
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -1.6340782122905027
+      y: 0.0
+      z: 2.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_fence-43176476:
+    identifier: dcf89ece-9962-4ed2-94f7-482e4c432c42
+    id: spruce_fence-43176476
+    material: SPRUCE_FENCE
+    data:
+      data-type: block-data
+      value: minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: -0.6340782122905028
+      y: 4.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_stairs-78074062:
+    identifier: 33d63ed1-4c2e-4417-9bc3-4063fb48af37
+    id: spruce_stairs-78074062
+    material: SPRUCE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 7.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-85857641:
+    identifier: bc05ef88-2411-42d4-9682-8d2a85350d73
+    id: spruce_trapdoor-85857641
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 4.365921787709497
+      y: 1.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-47866016:
+    identifier: 2427b163-13c9-4acb-a672-7e033c580e16
+    id: oak_stairs-47866016
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -7.634078212290503
+      y: 0.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-88527502:
+    identifier: cba896da-34ec-4b51-8e6c-854fb5d2dcf2
+    id: oak_planks-88527502
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -9.634078212290502
+      y: 2.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_wool-27902888:
+    identifier: 60d8d42c-9912-43b4-9256-530aa82a6a14
+    id: red_wool-27902888
+    material: RED_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:red_wool
+    offset:
+      x: -0.6340782122905028
+      y: 6.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-112948269:
+    identifier: bcd5ff54-b082-4913-9b24-93f5d25bc073
+    id: oak_stairs-112948269
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -9.634078212290502
+      y: 1.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-108694894:
+    identifier: 7d9a32df-3feb-4753-ae00-80328856e9b4
+    id: oak_planks-108694894
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 6.365921787709497
+      y: 1.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-74990506:
+    identifier: 3eb7aa49-8c09-4fc0-ac30-03737e805b67
+    id: oak_planks-74990506
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 6.365921787709497
+      y: 4.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-1145844:
+    identifier: 1dd35e5b-94e8-472a-8c65-a7b0a72faf2f
+    id: dark_oak_trapdoor-1145844
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -1.6340782122905027
+      y: 0.0
+      z: -3.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-14823446:
+    identifier: f20d1c40-222c-44c0-8331-072611fc360c
+    id: oak_stairs-14823446
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -7.634078212290503
+      y: 0.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-106715479:
+    identifier: 7fcc194b-93fe-4239-93b3-d6d4a20a3c94
+    id: oak_stairs-106715479
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 3.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-106222264:
+    identifier: 946adc4c-a3f0-49c2-942f-f42d999265dc
+    id: oak_stairs-106222264
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 2.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_slab-12566977:
+    identifier: 0c3dab53-235c-4eb7-b6db-614ea5b1e960
+    id: oak_slab-12566977
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 9.365921787709498
+      y: 6.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-40014348:
+    identifier: 8e398540-7aee-4780-8d3c-f17252236c2b
+    id: dark_oak_trapdoor-40014348
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -0.6340782122905028
+      y: 0.0
+      z: -3.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_fence-33388529:
+    identifier: 3408beca-9a20-4e4e-a0f6-5877b31db9c1
+    id: spruce_fence-33388529
+    material: SPRUCE_FENCE
+    data:
+      data-type: block-data
+      value: minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: -0.6340782122905028
+      y: 3.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-100376988:
+    identifier: 01b450f6-1800-452d-976b-9505e6770ce4
+    id: oak_planks-100376988
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -6.634078212290503
+      y: 0.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-100998798:
+    identifier: c1c63184-22c4-4fd7-8ba9-6063ae2e5d69
+    id: part-100998798
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 2.365921787709498
+      y: 0.0
+      z: 1.3966267335344118E-4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 1.0
+      z: 2.5
+  dark_oak_trapdoor-118810228:
+    identifier: 67fb3bab-ce72-4204-b9e5-414844c9a928
+    id: dark_oak_trapdoor-118810228
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -5.634078212290503
+      y: 0.0
+      z: 2.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_banner-55934049:
+    identifier: d39b17d4-8fe8-4222-9383-527dc7960e66
+    id: white_banner-55934049
+    material: WHITE_BANNER
+    data:
+      data-type: block-data
+      value: minecraft:white_wall_banner[facing=west]
+    offset:
+      x: -1.0340782122905017
+      y: 3.1
+      z: -1.199860337326646
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_wool-105040888:
+    identifier: 792fda49-b02e-4707-b739-a211f264b018
+    id: white_wool-105040888
+    material: WHITE_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:white_wool
+    offset:
+      x: -0.6340782122905028
+      y: 6.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-81748018:
+    identifier: 091bf2fd-b78a-4117-9e4b-f78b8a7dd186
+    id: part-81748018
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 0.3659217877094978
+      y: 0.0
+      z: -2.499860337326647
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 1.0
+      z: 2.5
+  oak_planks-47157026:
+    identifier: 255bc3e2-62fa-4502-87e6-b60ac631906f
+    id: oak_planks-47157026
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 7.365921787709497
+      y: 6.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-41042022:
+    identifier: 1c76013c-9bb6-4350-9f9a-03aa8487d8c8
+    id: part-41042022
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -5.634078212290505
+      y: 0.0
+      z: 1.3966267335344118E-4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 1.0
+      z: 2.5
+  spruce_trapdoor-41450664:
+    identifier: 862745ec-987f-47e2-8027-c5a90ef27f7f
+    id: spruce_trapdoor-41450664
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -10.634078212290502
+      y: 2.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-26965771:
+    identifier: 6353ccae-fa09-4ac8-9f5c-72e184a63327
+    id: oak_stairs-26965771
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -7.634078212290503
+      y: 1.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-547758:
+    identifier: 651caa16-c985-464b-9fbc-3a5021208a6b
+    id: oak_stairs-547758
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -9.634078212290502
+      y: 5.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-8238127:
+    identifier: 0cf42d23-b94c-4394-9c83-b52b097cb5ab
+    id: oak_planks-8238127
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 7.365921787709497
+      y: 2.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-54667563:
+    identifier: 088f94a0-6806-4a38-8c4f-1ac94c2d2223
+    id: dark_oak_trapdoor-54667563
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -0.6340782122905028
+      y: 0.0
+      z: 2.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-110545475:
+    identifier: 2caa1271-c0ca-4a36-9e37-68b1b76114fa
+    id: oak_planks-110545475
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -8.634078212290502
+      y: 1.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-102667765:
+    identifier: 45ca237f-9907-47b7-814a-6063cd54172f
+    id: part-102667765
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 2.365921787709498
+      y: 0.0
+      z: -2.499860337326647
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 1.0
+      z: 2.5
+  part-68885146:
+    identifier: 09d0ed19-cdd9-455f-93b1-3060994fe56b
+    id: part-68885146
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 4.365921787709497
+      y: 0.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-49000957:
+    identifier: 7b4fcf2e-a2c4-43a3-861d-851b337e5a4f
+    id: oak_stairs-49000957
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -8.634078212290502
+      y: 5.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-6610512:
+    identifier: 3fd7caac-5bf2-4138-b17d-4d59a715e965
+    id: spruce_trapdoor-6610512
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 7.365921787709497
+      y: 4.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-103057971:
+    identifier: 571d1bc1-5de0-4f68-82fb-d2238b0ecb8e
+    id: oak_planks-103057971
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -8.634078212290502
+      y: 4.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-21157818:
+    identifier: 59c52bf7-de49-4a27-bf77-694d79600cd3
+    id: oak_stairs-21157818
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 7.365921787709497
+      y: 1.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-58788838:
+    identifier: d8213e65-7e43-441e-a1de-b8c168cd8e97
+    id: spruce_trapdoor-58788838
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.6340782122905028
+      y: 7.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_planks-120402263:
+    identifier: 756585b1-fb71-40d4-8c64-1033399b1d5c
+    id: spruce_planks-120402263
+    material: SPRUCE_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: 1.3659217877094973
+      y: 0.28125
+      z: -2.5998603373266467
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  part-107915553:
+    identifier: 38ef5018-46a3-402e-b2fd-4456ce5cbc55
+    id: part-107915553
+    material: RED_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:red_wool
+    offset:
+      x: -0.7340782122905029
+      y: 5.000000000000002
+      z: -0.5998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5
+      y: 1.0
+      z: 1.2000000000000002
+  dark_oak_trapdoor-84053908:
+    identifier: e3c9c3cb-64d3-49fc-84ff-ad25b4defde4
+    id: dark_oak_trapdoor-84053908
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 3.3659217877094973
+      y: 0.0
+      z: 2.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-79637911:
+    identifier: 10dd3331-9ecf-4131-a2fd-027572b31e91
+    id: spruce_trapdoor-79637911
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -6.634078212290503
+      y: 1.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-14223023:
+    identifier: 7a8d8420-9b33-412b-82aa-a92816343504
+    id: dark_oak_trapdoor-14223023
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -5.634078212290503
+      y: 0.0
+      z: -3.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-2588100:
+    identifier: 651435e6-1b23-4e60-b4fb-00909b4ec679
+    id: oak_stairs-2588100
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 0.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-15067035:
+    identifier: 93940b4f-e547-48a2-93ff-2d6bfb131710
+    id: oak_planks-15067035
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -7.634078212290503
+      y: 0.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_planks-51462347:
+    identifier: 46c723be-fba8-40f6-9b79-ea932f3e1140
+    id: spruce_planks-51462347
+    material: SPRUCE_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: -3.6340782122905027
+      y: 0.28125
+      z: 2.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 0.5
+      z: 0.09375
+  oak_stairs-1708784:
+    identifier: 58be2d59-6384-4c75-ade8-0bbd2c186d6b
+    id: oak_stairs-1708784
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -9.634078212290502
+      y: 3.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_stairs-94576152:
+    identifier: 38dff8ea-8981-4a5b-b466-814c9339df20
+    id: spruce_stairs-94576152
+    material: SPRUCE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:spruce_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 7.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-81104087:
+    identifier: a522c0fb-2c87-4d1f-ae09-9137e3ae9b59
+    id: spruce_trapdoor-81104087
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -7.634078212290503
+      y: 4.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  brown_candle-121051695:
+    identifier: 4aabc616-c3b2-4c63-99a6-65e0c735cb9f
+    id: brown_candle-121051695
+    material: BROWN_CANDLE
+    data:
+      data-type: block-data
+      value: minecraft:brown_candle[candles=1,lit=true,waterlogged=false]
+    offset:
+      x: -0.6340782122905028
+      y: 9.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-44756432:
+    identifier: 6f67da26-0770-4744-910e-1bd6b17ff0f8
+    id: spruce_trapdoor-44756432
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -9.634078212290502
+      y: 2.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-89272807:
+    identifier: 19780f54-9939-43ce-a764-3a18a98c93aa
+    id: spruce_trapdoor-89272807
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 8.365921787709498
+      y: 2.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-18963639:
+    identifier: 50ff195e-930b-4f83-a67a-2c2b89edd1d8
+    id: oak_stairs-18963639
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 0.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-60329094:
+    identifier: cbc11d50-8705-49fb-b8c6-e5f47c3c4b58
+    id: oak_planks-60329094
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 4.365921787709497
+      y: 0.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-69341655:
+    identifier: 99f8d3a7-e8d4-4d6d-9b54-37d1346e2dbb
+    id: oak_stairs-69341655
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 4.365921787709497
+      y: 0.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-47091547:
+    identifier: 5798f346-353f-457d-8ad7-a9daa7311cbb
+    id: dark_oak_trapdoor-47091547
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 3.3659217877094973
+      y: 0.0
+      z: -3.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-102515179:
+    identifier: f117683b-a10f-4597-8196-96fd2d081357
+    id: oak_planks-102515179
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: 4.365921787709497
+      y: 0.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-94541951:
+    identifier: 0b4807d1-3a4c-4989-82bd-37c983cd1beb
+    id: spruce_trapdoor-94541951
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -7.634078212290503
+      y: 2.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-76058634:
+    identifier: c5a6691a-04f5-4b79-bf14-ce11bb67de70
+    id: dark_oak_trapdoor-76058634
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -4.634078212290503
+      y: 0.0
+      z: -3.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-71902862:
+    identifier: 29cf4097-2107-4fe6-a3c0-1c84ad270743
+    id: oak_stairs-71902862
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 0.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_slab-8597820:
+    identifier: c77193da-6237-42ca-8796-81a631b99b1c
+    id: oak_slab-8597820
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 8.365921787709498
+      y: 7.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_banner-12754248:
+    identifier: 2b2fa9c6-14fe-4396-a418-01c7d99d2e2b
+    id: white_banner-12754248
+    material: WHITE_BANNER
+    data:
+      data-type: block-data
+      value: minecraft:white_wall_banner[facing=west]
+    offset:
+      x: -1.0340782122905017
+      y: 3.1
+      z: 1.2001396626733531
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-111506570:
+    identifier: 76de8e0e-24f6-496b-8fb2-d2e5ee432cd9
+    id: spruce_trapdoor-111506570
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 2.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-76315889:
+    identifier: 40da20cc-7747-4d93-8b7a-f0b3d6b65ed9
+    id: oak_planks-76315889
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -6.634078212290503
+      y: 0.0
+      z: -2.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-88221186:
+    identifier: 7f001d9b-b1f5-4ce5-8eae-a13bfcc18493
+    id: oak_planks-88221186
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -8.634078212290502
+      y: 2.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-106951954:
+    identifier: 92d02a0b-fdb3-4102-9518-27f731bf881e
+    id: oak_stairs-106951954
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 6.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-62223214:
+    identifier: bdb5e7db-02f3-4d3d-ae18-041328adcc4a
+    id: oak_stairs-62223214
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -6.634078212290503
+      y: 0.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-52973699:
+    identifier: 2155b0ca-b1c4-4375-b4e3-193eb0a92828
+    id: oak_stairs-52973699
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 9.365921787709498
+      y: 7.0
+      z: -0.49986033732664653
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_slab-78999122:
+    identifier: 920d8e5f-04f3-4dbf-b41c-920f852682c7
+    id: spruce_slab-78999122
+    material: SPRUCE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:spruce_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 8.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-17826589:
+    identifier: 915b2e64-8370-48f4-a010-690abb332af6
+    id: part-17826589
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_planks
+    offset:
+      x: -5.634078212290505
+      y: 0.0
+      z: -2.499860337326647
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 1.0
+      z: 2.5
+  oak_slab-8323971:
+    identifier: a7028a79-6d81-4907-893b-03541debeecd
+    id: oak_slab-8323971
+    material: OAK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:oak_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.6340782122905028
+      y: 7.0
+      z: -1.4998603373266466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-36282356:
+    identifier: 582a4265-ebbb-43bf-b5a6-98d17e2d3e8f
+    id: oak_stairs-36282356
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 6.365921787709497
+      y: 1.0
+      z: 0.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-64445312:
+    identifier: 8c8c0574-8d90-4b3f-a408-cb6eef069208
+    id: oak_stairs-64445312
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -7.634078212290503
+      y: 0.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-114855304:
+    identifier: 49266ee5-aff7-49c0-b615-af85d34683ea
+    id: oak_stairs-114855304
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 5.365921787709497
+      y: 1.0
+      z: 1.5001396626733534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones:
+  main:
+    identifier: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+    id: main
+    pivot:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+rig:
+  6353ccae-fa09-4ac8-9f5c-72e184a63327:
+    identifier: 6353ccae-fa09-4ac8-9f5c-72e184a63327
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  7a8d8420-9b33-412b-82aa-a92816343504:
+    identifier: 7a8d8420-9b33-412b-82aa-a92816343504
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  252c807b-fe9e-45f7-849c-9d2ccdb68432:
+    identifier: 252c807b-fe9e-45f7-849c-9d2ccdb68432
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  80d841b7-8196-4b3f-a991-6f373350d43b:
+    identifier: 80d841b7-8196-4b3f-a991-6f373350d43b
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  571d1bc1-5de0-4f68-82fb-d2238b0ecb8e:
+    identifier: 571d1bc1-5de0-4f68-82fb-d2238b0ecb8e
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  0b4807d1-3a4c-4989-82bd-37c983cd1beb:
+    identifier: 0b4807d1-3a4c-4989-82bd-37c983cd1beb
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  ede531b4-74f2-405c-8c6b-4a91cab381b8:
+    identifier: ede531b4-74f2-405c-8c6b-4a91cab381b8
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  873e727c-dd1e-48c5-9200-b56be7e40606:
+    identifier: 873e727c-dd1e-48c5-9200-b56be7e40606
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  a9641f95-2c5b-44bc-ae4d-aaf4f733cb8d:
+    identifier: a9641f95-2c5b-44bc-ae4d-aaf4f733cb8d
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  6ac40b69-a60e-4614-9cbc-b02dcb27ee17:
+    identifier: 6ac40b69-a60e-4614-9cbc-b02dcb27ee17
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  999cd78d-054c-4178-824c-c222d9b947e5:
+    identifier: 999cd78d-054c-4178-824c-c222d9b947e5
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  5798f346-353f-457d-8ad7-a9daa7311cbb:
+    identifier: 5798f346-353f-457d-8ad7-a9daa7311cbb
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  792fda49-b02e-4707-b739-a211f264b018:
+    identifier: 792fda49-b02e-4707-b739-a211f264b018
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  c5a6691a-04f5-4b79-bf14-ce11bb67de70:
+    identifier: c5a6691a-04f5-4b79-bf14-ce11bb67de70
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  92d02a0b-fdb3-4102-9518-27f731bf881e:
+    identifier: 92d02a0b-fdb3-4102-9518-27f731bf881e
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  43fcbfa2-0308-4e47-b2fb-6601eb369dfb:
+    identifier: 43fcbfa2-0308-4e47-b2fb-6601eb369dfb
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  5a20ce56-bfc9-4f42-9f59-a96d88d89f38:
+    identifier: 5a20ce56-bfc9-4f42-9f59-a96d88d89f38
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  6f67da26-0770-4744-910e-1bd6b17ff0f8:
+    identifier: 6f67da26-0770-4744-910e-1bd6b17ff0f8
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  409edc3a-2880-43b0-aa90-75253c081505:
+    identifier: 409edc3a-2880-43b0-aa90-75253c081505
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  7d9a32df-3feb-4753-ae00-80328856e9b4:
+    identifier: 7d9a32df-3feb-4753-ae00-80328856e9b4
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  60d8d42c-9912-43b4-9256-530aa82a6a14:
+    identifier: 60d8d42c-9912-43b4-9256-530aa82a6a14
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  e245a6aa-e053-4798-903d-dfc47ec1382c:
+    identifier: e245a6aa-e053-4798-903d-dfc47ec1382c
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  58be2d59-6384-4c75-ade8-0bbd2c186d6b:
+    identifier: 58be2d59-6384-4c75-ade8-0bbd2c186d6b
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  7b4fcf2e-a2c4-43a3-861d-851b337e5a4f:
+    identifier: 7b4fcf2e-a2c4-43a3-861d-851b337e5a4f
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  5e10c514-4fc7-4840-984d-36ec76673b74:
+    identifier: 5e10c514-4fc7-4840-984d-36ec76673b74
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  f58517d5-52c5-4159-8401-b121096b91b4:
+    identifier: f58517d5-52c5-4159-8401-b121096b91b4
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  28893df5-3f05-435f-ae80-01c6958261da:
+    identifier: 28893df5-3f05-435f-ae80-01c6958261da
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  cbc11d50-8705-49fb-b8c6-e5f47c3c4b58:
+    identifier: cbc11d50-8705-49fb-b8c6-e5f47c3c4b58
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  2caa1271-c0ca-4a36-9e37-68b1b76114fa:
+    identifier: 2caa1271-c0ca-4a36-9e37-68b1b76114fa
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  8c8c0574-8d90-4b3f-a408-cb6eef069208:
+    identifier: 8c8c0574-8d90-4b3f-a408-cb6eef069208
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  091bf2fd-b78a-4117-9e4b-f78b8a7dd186:
+    identifier: 091bf2fd-b78a-4117-9e4b-f78b8a7dd186
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  36638fe7-6412-49aa-8a04-38c46b1d9fa0:
+    identifier: 36638fe7-6412-49aa-8a04-38c46b1d9fa0
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  24eeb7ca-8b0e-4ed4-b03d-c877c0f0de02:
+    identifier: 24eeb7ca-8b0e-4ed4-b03d-c877c0f0de02
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  f20d1c40-222c-44c0-8331-072611fc360c:
+    identifier: f20d1c40-222c-44c0-8331-072611fc360c
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  bdb5e7db-02f3-4d3d-ae18-041328adcc4a:
+    identifier: bdb5e7db-02f3-4d3d-ae18-041328adcc4a
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  7f001d9b-b1f5-4ce5-8eae-a13bfcc18493:
+    identifier: 7f001d9b-b1f5-4ce5-8eae-a13bfcc18493
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  0f646e99-baf6-4038-88cf-e52f2f3057af:
+    identifier: 0f646e99-baf6-4038-88cf-e52f2f3057af
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  50ff195e-930b-4f83-a67a-2c2b89edd1d8:
+    identifier: 50ff195e-930b-4f83-a67a-2c2b89edd1d8
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  dd7bb677-eef2-4ee9-9074-eefc862fe3e1:
+    identifier: dd7bb677-eef2-4ee9-9074-eefc862fe3e1
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  32008ae5-a425-4e25-9034-d957b4226ff5:
+    identifier: 32008ae5-a425-4e25-9034-d957b4226ff5
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  8e398540-7aee-4780-8d3c-f17252236c2b:
+    identifier: 8e398540-7aee-4780-8d3c-f17252236c2b
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  862745ec-987f-47e2-8027-c5a90ef27f7f:
+    identifier: 862745ec-987f-47e2-8027-c5a90ef27f7f
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  45ca237f-9907-47b7-814a-6063cd54172f:
+    identifier: 45ca237f-9907-47b7-814a-6063cd54172f
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  25479322-43fb-40c6-a9b1-6ad2ffc07fa3:
+    identifier: 25479322-43fb-40c6-a9b1-6ad2ffc07fa3
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  946adc4c-a3f0-49c2-942f-f42d999265dc:
+    identifier: 946adc4c-a3f0-49c2-942f-f42d999265dc
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  d8213e65-7e43-441e-a1de-b8c168cd8e97:
+    identifier: d8213e65-7e43-441e-a1de-b8c168cd8e97
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  dcf89ece-9962-4ed2-94f7-482e4c432c42:
+    identifier: dcf89ece-9962-4ed2-94f7-482e4c432c42
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  e5a74b32-1bb9-46ae-b719-97ab86cc09a2:
+    identifier: e5a74b32-1bb9-46ae-b719-97ab86cc09a2
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  651caa16-c985-464b-9fbc-3a5021208a6b:
+    identifier: 651caa16-c985-464b-9fbc-3a5021208a6b
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  40da20cc-7747-4d93-8b7a-f0b3d6b65ed9:
+    identifier: 40da20cc-7747-4d93-8b7a-f0b3d6b65ed9
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  915b2e64-8370-48f4-a010-690abb332af6:
+    identifier: 915b2e64-8370-48f4-a010-690abb332af6
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  67fb3bab-ce72-4204-b9e5-414844c9a928:
+    identifier: 67fb3bab-ce72-4204-b9e5-414844c9a928
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  2752347a-4697-4204-b917-b958f2e4437c:
+    identifier: 2752347a-4697-4204-b917-b958f2e4437c
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  a93e2cac-dedb-4320-b727-6e9bbf1423ae:
+    identifier: a93e2cac-dedb-4320-b727-6e9bbf1423ae
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  0cf42d23-b94c-4394-9c83-b52b097cb5ab:
+    identifier: 0cf42d23-b94c-4394-9c83-b52b097cb5ab
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  960426de-eb1c-4295-9d58-6eadff9c244b:
+    identifier: 960426de-eb1c-4295-9d58-6eadff9c244b
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  2155b0ca-b1c4-4375-b4e3-193eb0a92828:
+    identifier: 2155b0ca-b1c4-4375-b4e3-193eb0a92828
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  7e5c22f6-cb7b-4b6e-b884-cd240dfb7491:
+    identifier: 7e5c22f6-cb7b-4b6e-b884-cd240dfb7491
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  2427b163-13c9-4acb-a672-7e033c580e16:
+    identifier: 2427b163-13c9-4acb-a672-7e033c580e16
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  e9f6bfe5-5f8b-427a-97fb-2a8c5b73869a:
+    identifier: e9f6bfe5-5f8b-427a-97fb-2a8c5b73869a
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  c85a739b-516c-4d27-861f-8f86d6544239:
+    identifier: c85a739b-516c-4d27-861f-8f86d6544239
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  f117683b-a10f-4597-8196-96fd2d081357:
+    identifier: f117683b-a10f-4597-8196-96fd2d081357
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  4aabc616-c3b2-4c63-99a6-65e0c735cb9f:
+    identifier: 4aabc616-c3b2-4c63-99a6-65e0c735cb9f
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  76de8e0e-24f6-496b-8fb2-d2e5ee432cd9:
+    identifier: 76de8e0e-24f6-496b-8fb2-d2e5ee432cd9
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  19780f54-9939-43ce-a764-3a18a98c93aa:
+    identifier: 19780f54-9939-43ce-a764-3a18a98c93aa
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  386c9d19-c1ad-4739-923d-2d31793bc157:
+    identifier: 386c9d19-c1ad-4739-923d-2d31793bc157
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  a522c0fb-2c87-4d1f-ae09-9137e3ae9b59:
+    identifier: a522c0fb-2c87-4d1f-ae09-9137e3ae9b59
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  d39b17d4-8fe8-4222-9383-527dc7960e66:
+    identifier: d39b17d4-8fe8-4222-9383-527dc7960e66
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  aa52b036-e575-4c97-8c38-c7653d8993d9:
+    identifier: aa52b036-e575-4c97-8c38-c7653d8993d9
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  6685a46f-b5ae-4ec1-b6b8-e5283cfa877f:
+    identifier: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+    children:
+    - a93e2cac-dedb-4320-b727-6e9bbf1423ae
+    - 756585b1-fb71-40d4-8c64-1033399b1d5c
+    - 0f646e99-baf6-4038-88cf-e52f2f3057af
+    - 3fd7caac-5bf2-4138-b17d-4d59a715e965
+    - cba896da-34ec-4b51-8e6c-854fb5d2dcf2
+    - 0c3dab53-235c-4eb7-b6db-614ea5b1e960
+    - 920d8e5f-04f3-4dbf-b41c-920f852682c7
+    - c5285e24-5a99-4e57-8884-d373085861f0
+    - 93940b4f-e547-48a2-93ff-2d6bfb131710
+    - cbc11d50-8705-49fb-b8c6-e5f47c3c4b58
+    - 7ca5b142-ae90-441f-b87a-4f2d191405d9
+    - 33d63ed1-4c2e-4417-9bc3-4063fb48af37
+    - 9392edc2-077c-4c5f-b639-b4b5266d9075
+    - 7fcc194b-93fe-4239-93b3-d6d4a20a3c94
+    - 19780f54-9939-43ce-a764-3a18a98c93aa
+    - 80d841b7-8196-4b3f-a991-6f373350d43b
+    - 7b4fcf2e-a2c4-43a3-861d-851b337e5a4f
+    - 60d8d42c-9912-43b4-9256-530aa82a6a14
+    - 9f9157c9-a0d4-4319-9308-d68954412fba
+    - 99f8d3a7-e8d4-4d6d-9b54-37d1346e2dbb
+    - 59b7586a-790b-4847-ab32-85b5bfca1c78
+    - 32008ae5-a425-4e25-9034-d957b4226ff5
+    - 8c8c0574-8d90-4b3f-a408-cb6eef069208
+    - 1dd35e5b-94e8-472a-8c65-a7b0a72faf2f
+    - 0b4807d1-3a4c-4989-82bd-37c983cd1beb
+    - e5a74b32-1bb9-46ae-b719-97ab86cc09a2
+    - d554e85e-bbbd-42cb-8665-24ee3cf587f2
+    - a7028a79-6d81-4907-893b-03541debeecd
+    - 386c9d19-c1ad-4739-923d-2d31793bc157
+    - 01b450f6-1800-452d-976b-9505e6770ce4
+    - b3a85df9-78b6-4d30-b274-783775ae7a83
+    - 46c723be-fba8-40f6-9b79-ea932f3e1140
+    - 36638fe7-6412-49aa-8a04-38c46b1d9fa0
+    - 3408beca-9a20-4e4e-a0f6-5877b31db9c1
+    - 5798f346-353f-457d-8ad7-a9daa7311cbb
+    - bdb5e7db-02f3-4d3d-ae18-041328adcc4a
+    - 915b2e64-8370-48f4-a010-690abb332af6
+    - 10dd3331-9ecf-4131-a2fd-027572b31e91
+    - c1c63184-22c4-4fd7-8ba9-6063ae2e5d69
+    - 45ca237f-9907-47b7-814a-6063cd54172f
+    - 92d02a0b-fdb3-4102-9518-27f731bf881e
+    - 3eb7aa49-8c09-4fc0-ac30-03737e805b67
+    - 2752347a-4697-4204-b917-b958f2e4437c
+    - 67fb3bab-ce72-4204-b9e5-414844c9a928
+    - 582a4265-ebbb-43bf-b5a6-98d17e2d3e8f
+    - 6f67da26-0770-4744-910e-1bd6b17ff0f8
+    - 76de8e0e-24f6-496b-8fb2-d2e5ee432cd9
+    - 09d0ed19-cdd9-455f-93b1-3060994fe56b
+    - f8b55317-8886-4b9a-95d9-28d121f5ce90
+    - 5e10c514-4fc7-4840-984d-36ec76673b74
+    - 25479322-43fb-40c6-a9b1-6ad2ffc07fa3
+    - a9641f95-2c5b-44bc-ae4d-aaf4f733cb8d
+    - ede531b4-74f2-405c-8c6b-4a91cab381b8
+    - 118dda15-a7e7-47fc-82e8-bd28aff28562
+    - 58be2d59-6384-4c75-ade8-0bbd2c186d6b
+    - bcd5ff54-b082-4913-9b24-93f5d25bc073
+    - 6ac40b69-a60e-4614-9cbc-b02dcb27ee17
+    - c85a739b-516c-4d27-861f-8f86d6544239
+    - 7f001d9b-b1f5-4ce5-8eae-a13bfcc18493
+    - 7d9a32df-3feb-4753-ae00-80328856e9b4
+    - 1c76013c-9bb6-4350-9f9a-03aa8487d8c8
+    - 55650ef9-4dde-4905-81a4-4354b47c7718
+    - 61896c07-a875-4d54-a85a-ddb47726ddba
+    - f58517d5-52c5-4159-8401-b121096b91b4
+    - 06b9a61b-80d2-4863-b06d-c1c56f429a08
+    - 29cf4097-2107-4fe6-a3c0-1c84ad270743
+    - 3945d7aa-85a2-40d3-8b79-7adc1c38cdd1
+    - 7a8d8420-9b33-412b-82aa-a92816343504
+    - 53511a9b-467e-4815-9939-5b007e03d968
+    - 5a20ce56-bfc9-4f42-9f59-a96d88d89f38
+    - 091bf2fd-b78a-4117-9e4b-f78b8a7dd186
+    - 7e5c22f6-cb7b-4b6e-b884-cd240dfb7491
+    - d39b17d4-8fe8-4222-9383-527dc7960e66
+    - 255bc3e2-62fa-4502-87e6-b60ac631906f
+    - 7bd3940a-be2d-45b8-9c40-332acece8c08
+    - 28893df5-3f05-435f-ae80-01c6958261da
+    - 960426de-eb1c-4295-9d58-6eadff9c244b
+    - 4aabc616-c3b2-4c63-99a6-65e0c735cb9f
+    - 088f94a0-6806-4a38-8c4f-1ac94c2d2223
+    - e3fb9647-524c-43a9-a826-4312ba2440e5
+    - 571d1bc1-5de0-4f68-82fb-d2238b0ecb8e
+    - d8213e65-7e43-441e-a1de-b8c168cd8e97
+    - 873e727c-dd1e-48c5-9200-b56be7e40606
+    - 252c807b-fe9e-45f7-849c-9d2ccdb68432
+    - 6353ccae-fa09-4ac8-9f5c-72e184a63327
+    - 6de83b8f-d9d3-424f-8ddb-05a171851cde
+    - f55785d6-37a8-461e-9f38-5365eb686d9b
+    - 76dd8d84-cd7d-4b77-a2f3-32e0b10c35a7
+    - 999cd78d-054c-4178-824c-c222d9b947e5
+    - 59c52bf7-de49-4a27-bf77-694d79600cd3
+    - 2b2fa9c6-14fe-4396-a418-01c7d99d2e2b
+    - 35ab9374-8ace-4368-90f7-ddaea8e9e032
+    - 7a97ff55-7748-493d-b9a8-3bc13991728e
+    - 19442c13-e95c-408a-8e51-ab981058fe8e
+    - c77193da-6237-42ca-8796-81a631b99b1c
+    - 186b680c-3aeb-49f1-907f-dd8ee541b427
+    - 8e398540-7aee-4780-8d3c-f17252236c2b
+    - 5fbee594-1384-4580-b0d9-97aa2c4d7ed4
+    - a522c0fb-2c87-4d1f-ae09-9137e3ae9b59
+    - 5118652b-233b-421e-a142-127987e26f11
+    - 6ef34d72-b8ae-4b33-b6e8-97700cd8e99f
+    - 38dff8ea-8981-4a5b-b466-814c9339df20
+    - e9f6bfe5-5f8b-427a-97fb-2a8c5b73869a
+    - 651435e6-1b23-4e60-b4fb-00909b4ec679
+    - 2427b163-13c9-4acb-a672-7e033c580e16
+    - 651caa16-c985-464b-9fbc-3a5021208a6b
+    - f117683b-a10f-4597-8196-96fd2d081357
+    - 862745ec-987f-47e2-8027-c5a90ef27f7f
+    - 40da20cc-7747-4d93-8b7a-f0b3d6b65ed9
+    - bc05ef88-2411-42d4-9682-8d2a85350d73
+    - e93a8dae-ab74-4d99-bcfe-5229a303f209
+    - dd7bb677-eef2-4ee9-9074-eefc862fe3e1
+    - 2155b0ca-b1c4-4375-b4e3-193eb0a92828
+    - aa92b2d5-ae2b-4cfd-8c7e-997b9a160249
+    - e245a6aa-e053-4798-903d-dfc47ec1382c
+    - f20d1c40-222c-44c0-8331-072611fc360c
+    - c5a6691a-04f5-4b79-bf14-ce11bb67de70
+    - 944780c6-092a-49f4-b173-cca3eb5ead6e
+    - 0cf42d23-b94c-4394-9c83-b52b097cb5ab
+    - dcf89ece-9962-4ed2-94f7-482e4c432c42
+    - 2caa1271-c0ca-4a36-9e37-68b1b76114fa
+    - 47fd5751-c687-4b7f-8697-f785ad0d5c82
+    - 49266ee5-aff7-49c0-b615-af85d34683ea
+    - 93c15934-536d-49fc-8ba3-0459ea04fd72
+    - aa52b036-e575-4c97-8c38-c7653d8993d9
+    - 6401bccc-740e-4761-b3f9-ab9e29c80694
+    - e3c9c3cb-64d3-49fc-84ff-ad25b4defde4
+    - 946adc4c-a3f0-49c2-942f-f42d999265dc
+    - 43fcbfa2-0308-4e47-b2fb-6601eb369dfb
+    - 50ff195e-930b-4f83-a67a-2c2b89edd1d8
+    - 792fda49-b02e-4707-b739-a211f264b018
+    - 24eeb7ca-8b0e-4ed4-b03d-c877c0f0de02
+    - 38ef5018-46a3-402e-b2fd-4456ce5cbc55
+    - 409edc3a-2880-43b0-aa90-75253c081505
+  01b450f6-1800-452d-976b-9505e6770ce4:
+    identifier: 01b450f6-1800-452d-976b-9505e6770ce4
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  3eb7aa49-8c09-4fc0-ac30-03737e805b67:
+    identifier: 3eb7aa49-8c09-4fc0-ac30-03737e805b67
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  29cf4097-2107-4fe6-a3c0-1c84ad270743:
+    identifier: 29cf4097-2107-4fe6-a3c0-1c84ad270743
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  088f94a0-6806-4a38-8c4f-1ac94c2d2223:
+    identifier: 088f94a0-6806-4a38-8c4f-1ac94c2d2223
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  6401bccc-740e-4761-b3f9-ab9e29c80694:
+    identifier: 6401bccc-740e-4761-b3f9-ab9e29c80694
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  f55785d6-37a8-461e-9f38-5365eb686d9b:
+    identifier: f55785d6-37a8-461e-9f38-5365eb686d9b
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  c5285e24-5a99-4e57-8884-d373085861f0:
+    identifier: c5285e24-5a99-4e57-8884-d373085861f0
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  582a4265-ebbb-43bf-b5a6-98d17e2d3e8f:
+    identifier: 582a4265-ebbb-43bf-b5a6-98d17e2d3e8f
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  19442c13-e95c-408a-8e51-ab981058fe8e:
+    identifier: 19442c13-e95c-408a-8e51-ab981058fe8e
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  1dd35e5b-94e8-472a-8c65-a7b0a72faf2f:
+    identifier: 1dd35e5b-94e8-472a-8c65-a7b0a72faf2f
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  e93a8dae-ab74-4d99-bcfe-5229a303f209:
+    identifier: e93a8dae-ab74-4d99-bcfe-5229a303f209
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  59b7586a-790b-4847-ab32-85b5bfca1c78:
+    identifier: 59b7586a-790b-4847-ab32-85b5bfca1c78
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  bc05ef88-2411-42d4-9682-8d2a85350d73:
+    identifier: bc05ef88-2411-42d4-9682-8d2a85350d73
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  93940b4f-e547-48a2-93ff-2d6bfb131710:
+    identifier: 93940b4f-e547-48a2-93ff-2d6bfb131710
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  e3fb9647-524c-43a9-a826-4312ba2440e5:
+    identifier: e3fb9647-524c-43a9-a826-4312ba2440e5
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  46c723be-fba8-40f6-9b79-ea932f3e1140:
+    identifier: 46c723be-fba8-40f6-9b79-ea932f3e1140
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  a7028a79-6d81-4907-893b-03541debeecd:
+    identifier: a7028a79-6d81-4907-893b-03541debeecd
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  99f8d3a7-e8d4-4d6d-9b54-37d1346e2dbb:
+    identifier: 99f8d3a7-e8d4-4d6d-9b54-37d1346e2dbb
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  10dd3331-9ecf-4131-a2fd-027572b31e91:
+    identifier: 10dd3331-9ecf-4131-a2fd-027572b31e91
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  b3a85df9-78b6-4d30-b274-783775ae7a83:
+    identifier: b3a85df9-78b6-4d30-b274-783775ae7a83
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  7fcc194b-93fe-4239-93b3-d6d4a20a3c94:
+    identifier: 7fcc194b-93fe-4239-93b3-d6d4a20a3c94
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  09d0ed19-cdd9-455f-93b1-3060994fe56b:
+    identifier: 09d0ed19-cdd9-455f-93b1-3060994fe56b
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  944780c6-092a-49f4-b173-cca3eb5ead6e:
+    identifier: 944780c6-092a-49f4-b173-cca3eb5ead6e
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  7a97ff55-7748-493d-b9a8-3bc13991728e:
+    identifier: 7a97ff55-7748-493d-b9a8-3bc13991728e
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  0c3dab53-235c-4eb7-b6db-614ea5b1e960:
+    identifier: 0c3dab53-235c-4eb7-b6db-614ea5b1e960
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  c77193da-6237-42ca-8796-81a631b99b1c:
+    identifier: c77193da-6237-42ca-8796-81a631b99b1c
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  6ef34d72-b8ae-4b33-b6e8-97700cd8e99f:
+    identifier: 6ef34d72-b8ae-4b33-b6e8-97700cd8e99f
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  5fbee594-1384-4580-b0d9-97aa2c4d7ed4:
+    identifier: 5fbee594-1384-4580-b0d9-97aa2c4d7ed4
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  49266ee5-aff7-49c0-b615-af85d34683ea:
+    identifier: 49266ee5-aff7-49c0-b615-af85d34683ea
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  47fd5751-c687-4b7f-8697-f785ad0d5c82:
+    identifier: 47fd5751-c687-4b7f-8697-f785ad0d5c82
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  aa92b2d5-ae2b-4cfd-8c7e-997b9a160249:
+    identifier: aa92b2d5-ae2b-4cfd-8c7e-997b9a160249
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  cba896da-34ec-4b51-8e6c-854fb5d2dcf2:
+    identifier: cba896da-34ec-4b51-8e6c-854fb5d2dcf2
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  e3c9c3cb-64d3-49fc-84ff-ad25b4defde4:
+    identifier: e3c9c3cb-64d3-49fc-84ff-ad25b4defde4
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  3945d7aa-85a2-40d3-8b79-7adc1c38cdd1:
+    identifier: 3945d7aa-85a2-40d3-8b79-7adc1c38cdd1
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  f8b55317-8886-4b9a-95d9-28d121f5ce90:
+    identifier: f8b55317-8886-4b9a-95d9-28d121f5ce90
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  118dda15-a7e7-47fc-82e8-bd28aff28562:
+    identifier: 118dda15-a7e7-47fc-82e8-bd28aff28562
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  1c76013c-9bb6-4350-9f9a-03aa8487d8c8:
+    identifier: 1c76013c-9bb6-4350-9f9a-03aa8487d8c8
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  55650ef9-4dde-4905-81a4-4354b47c7718:
+    identifier: 55650ef9-4dde-4905-81a4-4354b47c7718
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  59c52bf7-de49-4a27-bf77-694d79600cd3:
+    identifier: 59c52bf7-de49-4a27-bf77-694d79600cd3
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  38ef5018-46a3-402e-b2fd-4456ce5cbc55:
+    identifier: 38ef5018-46a3-402e-b2fd-4456ce5cbc55
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  6de83b8f-d9d3-424f-8ddb-05a171851cde:
+    identifier: 6de83b8f-d9d3-424f-8ddb-05a171851cde
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  38dff8ea-8981-4a5b-b466-814c9339df20:
+    identifier: 38dff8ea-8981-4a5b-b466-814c9339df20
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  c1c63184-22c4-4fd7-8ba9-6063ae2e5d69:
+    identifier: c1c63184-22c4-4fd7-8ba9-6063ae2e5d69
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  61896c07-a875-4d54-a85a-ddb47726ddba:
+    identifier: 61896c07-a875-4d54-a85a-ddb47726ddba
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  5118652b-233b-421e-a142-127987e26f11:
+    identifier: 5118652b-233b-421e-a142-127987e26f11
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  7bd3940a-be2d-45b8-9c40-332acece8c08:
+    identifier: 7bd3940a-be2d-45b8-9c40-332acece8c08
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  33d63ed1-4c2e-4417-9bc3-4063fb48af37:
+    identifier: 33d63ed1-4c2e-4417-9bc3-4063fb48af37
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  756585b1-fb71-40d4-8c64-1033399b1d5c:
+    identifier: 756585b1-fb71-40d4-8c64-1033399b1d5c
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  3fd7caac-5bf2-4138-b17d-4d59a715e965:
+    identifier: 3fd7caac-5bf2-4138-b17d-4d59a715e965
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  9392edc2-077c-4c5f-b639-b4b5266d9075:
+    identifier: 9392edc2-077c-4c5f-b639-b4b5266d9075
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  2b2fa9c6-14fe-4396-a418-01c7d99d2e2b:
+    identifier: 2b2fa9c6-14fe-4396-a418-01c7d99d2e2b
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  93c15934-536d-49fc-8ba3-0459ea04fd72:
+    identifier: 93c15934-536d-49fc-8ba3-0459ea04fd72
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  bcd5ff54-b082-4913-9b24-93f5d25bc073:
+    identifier: bcd5ff54-b082-4913-9b24-93f5d25bc073
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  186b680c-3aeb-49f1-907f-dd8ee541b427:
+    identifier: 186b680c-3aeb-49f1-907f-dd8ee541b427
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  76dd8d84-cd7d-4b77-a2f3-32e0b10c35a7:
+    identifier: 76dd8d84-cd7d-4b77-a2f3-32e0b10c35a7
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  920d8e5f-04f3-4dbf-b41c-920f852682c7:
+    identifier: 920d8e5f-04f3-4dbf-b41c-920f852682c7
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  651435e6-1b23-4e60-b4fb-00909b4ec679:
+    identifier: 651435e6-1b23-4e60-b4fb-00909b4ec679
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  9f9157c9-a0d4-4319-9308-d68954412fba:
+    identifier: 9f9157c9-a0d4-4319-9308-d68954412fba
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  d554e85e-bbbd-42cb-8665-24ee3cf587f2:
+    identifier: d554e85e-bbbd-42cb-8665-24ee3cf587f2
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  06b9a61b-80d2-4863-b06d-c1c56f429a08:
+    identifier: 06b9a61b-80d2-4863-b06d-c1c56f429a08
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  3408beca-9a20-4e4e-a0f6-5877b31db9c1:
+    identifier: 3408beca-9a20-4e4e-a0f6-5877b31db9c1
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  7ca5b142-ae90-441f-b87a-4f2d191405d9:
+    identifier: 7ca5b142-ae90-441f-b87a-4f2d191405d9
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  53511a9b-467e-4815-9939-5b007e03d968:
+    identifier: 53511a9b-467e-4815-9939-5b007e03d968
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  255bc3e2-62fa-4502-87e6-b60ac631906f:
+    identifier: 255bc3e2-62fa-4502-87e6-b60ac631906f
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+  35ab9374-8ace-4368-90f7-ddaea8e9e032:
+    identifier: 35ab9374-8ace-4368-90f7-ddaea8e9e032
+    parent: 6685a46f-b5ae-4ec1-b6b8-e5283cfa877f
+animations: {}

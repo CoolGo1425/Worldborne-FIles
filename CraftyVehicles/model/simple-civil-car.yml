@@ -1,0 +1,1004 @@
+id: simple-civil-car
+type: COMPOUND
+hitbox:
+  width: 3.0543863844543107
+  height: 2.3981518765499414
+  depth: 3.0543863844543107
+seats:
+  seat-0:
+    main: false
+    offset:
+      x: 0.5782283524890683
+      y: 0.5367413709089229
+      z: 0.0
+  seat-1:
+    main: true
+    offset:
+      x: -0.5558643458585129
+      y: 0.5179864760335298
+      z: 0.0
+particles:
+  particle-0:
+    type: REDSTONE
+    offset:
+      x: 0.38950562937224514
+      y: 0.2738548816777447
+      z: -3.0523236483467615
+    delay: 2
+    count: 1
+    dispersion: 0.0
+    data:
+      data-type: dust-options
+      red: 150
+      green: 150
+      blue: 150
+      size: 1.0
+    states-to-apply: moving_backwards,moving,moving_turning_left,moving_backwards_turning_left,moving_backwards_turning_right,moving_turning_right
+sounds: {}
+parts:
+  part-113122240:
+    identifier: 33c6dc89-94a7-4a96-a1bc-491ec4bdc278
+    id: part-113122240
+    material: GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: -1.2999809285908475
+      y: 1.1799999999999995
+      z: 0.5995293907595403
+    rotation:
+      x: -20.0
+      y: -15.000005540054905
+      z: -2.5
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-93965337:
+    identifier: e6bff066-cf7d-4608-860b-5bf11db6e7aa
+    id: dark_oak_planks-93965337
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_planks
+    offset:
+      x: 1.907140915258232E-5
+      y: 1.3999999999999997
+      z: -1.85047060924046
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-64087613:
+    identifier: d9357f4c-94cc-4f3b-a316-8f663764538a
+    id: black_carpet-64087613
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: -0.49998092859084753
+      y: 0.40000000000000036
+      z: -0.15047060924045974
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-59033891:
+    identifier: cc157537-eb54-4886-a28e-df8870b0c01a
+    id: part-59033891
+    material: GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: 2.000019071409152
+      y: 1.5999999999999994
+      z: -0.7504706092404597
+    rotation:
+      x: 89.999995674289
+      y: -60.00002899040879
+      z: 90.00000250447816
+    scale:
+      x: 1.6
+      y: 1.2000000000000002
+      z: 1.0
+  light_blue_concrete-123075683:
+    identifier: bd8cb617-660a-4485-94c6-64a81f99b6d1
+    id: light_blue_concrete-123075683
+    material: LIGHT_BLUE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:light_blue_concrete
+    offset:
+      x: -0.49998092859084753
+      y: 0.40000000000000036
+      z: 1.64952939075954
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.9
+      z: 1.0
+  dark_oak_stairs-73810041:
+    identifier: 869d93eb-a8b5-4623-b8bf-82745e5296bf
+    id: dark_oak_stairs-73810041
+    material: DARK_OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.4999809285908476
+      y: 0.40000000000000036
+      z: -1.1504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-109456550:
+    identifier: 9d123e77-8da8-4078-8ed6-bad914819297
+    id: black_carpet-109456550
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: -0.9999809285908475
+      y: 2.3
+      z: -0.8504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.5
+      z: 1.9
+  light_blue_concrete-33323083:
+    identifier: 017e8208-e7c2-4da8-9bed-73fd281874cf
+    id: light_blue_concrete-33323083
+    material: LIGHT_BLUE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:light_blue_concrete
+    offset:
+      x: -0.49998092859084753
+      y: 0.40000000000000036
+      z: -3.1504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  redstone_lamp-77176763:
+    identifier: b72da526-e750-4060-b425-b550ce334070
+    id: redstone_lamp-77176763
+    material: REDSTONE_LAMP
+    data:
+      data-type: block-data
+      value: minecraft:redstone_lamp[lit=false]
+    offset:
+      x: -1.2999809285908475
+      y: 1.0999999999999996
+      z: 2.549529390759541
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.4
+      y: 0.4
+      z: 0.4
+  spruce_trapdoor-18674297:
+    identifier: b1dfb9f6-f848-4f72-a2ec-28168824e359
+    id: spruce_trapdoor-18674297
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 1.4000190714091523
+      y: 0.40000000000000036
+      z: -0.15047060924045974
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_blue_concrete-82145304:
+    identifier: 87dd7f91-adbf-4ce3-a978-b45b4adb9a56
+    id: light_blue_concrete-82145304
+    material: LIGHT_BLUE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:light_blue_concrete
+    offset:
+      x: -1.4999809285908476
+      y: 0.40000000000000036
+      z: 1.8495293907595403
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-95358488:
+    identifier: 751f55e8-8eaf-4d75-b4fa-c4b10c58e769
+    id: part-95358488
+    material: REDSTONE_LAMP
+    data:
+      data-type: block-data
+      value: minecraft:redstone_lamp[lit=false]
+    offset:
+      x: 0.9000190714091528
+      y: 1.0999999999999996
+      z: -3.2504706092404594
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.4
+      y: 0.4
+      z: 0.4
+  dark_oak_planks-106148940:
+    identifier: c8cc72e7-6e25-4cb8-b2a7-111638c1cebe
+    id: dark_oak_planks-106148940
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_planks
+    offset:
+      x: -0.9999809285908476
+      y: 1.3999999999999997
+      z: -1.8504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_stairs-81281599:
+    identifier: 1f10718e-392d-47a6-b947-2e21548b93cb
+    id: dark_oak_stairs-81281599
+    material: DARK_OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -0.49998092859084753
+      y: 0.40000000000000036
+      z: -1.1504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_blue_concrete-117363686:
+    identifier: c2238560-d9a7-4ef2-b9c5-4a09cc23e44f
+    id: light_blue_concrete-117363686
+    material: LIGHT_BLUE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:light_blue_concrete
+    offset:
+      x: 0.5000190714091525
+      y: 0.40000000000000036
+      z: -3.1504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-55751215:
+    identifier: d981d00c-b6e5-42fc-9228-fb93b8501365
+    id: black_carpet-55751215
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: -1.4999809285908476
+      y: 0.40000000000000036
+      z: -0.15047060924045974
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_blue_concrete-3617104:
+    identifier: 84fe4dae-39a5-428c-b378-bdf91629466e
+    id: light_blue_concrete-3617104
+    material: LIGHT_BLUE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:light_blue_concrete
+    offset:
+      x: -0.49998092859084753
+      y: 0.40000000000000036
+      z: 0.8495293907595403
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.9
+      z: 1.0
+  part-120009837:
+    identifier: e6cc16a3-c8b2-4e71-b200-2a889922ed54
+    id: part-120009837
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: 1.2000190714091525
+      y: 0.4
+      z: 1.8495293907595411
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 1.6
+      y: 1.6
+      z: 1.6
+  spruce_trapdoor-118067971:
+    identifier: 15ba6765-aa04-4e90-8fd7-e1a670d05666
+    id: spruce_trapdoor-118067971
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -2.3999809285908476
+      y: 0.40000000000000036
+      z: -0.15047060924045974
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  spruce_trapdoor-68265351:
+    identifier: 6a29e806-3ebb-4cc3-b919-cd236d342bec
+    id: spruce_trapdoor-68265351
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 1.4000190714091523
+      y: 0.40000000000000036
+      z: -1.1504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-115501183:
+    identifier: 5bfc94cc-cf3f-4332-acf9-585e0d3caacd
+    id: part-115501183
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: -1.1999809285908476
+      y: 0.4
+      z: -2.1504706092404593
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 1.6
+      y: 1.6
+      z: 1.6
+  black_carpet-42405715:
+    identifier: d2d1b981-48d9-4147-a32c-3ab53e0dbf59
+    id: black_carpet-42405715
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: 1.9071409152471297E-5
+      y: 2.3
+      z: -0.8504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.5
+      z: 1.9
+  part-7248012:
+    identifier: 0d99fe51-8adc-44ae-a194-8dfd7439849f
+    id: part-7248012
+    material: REDSTONE_LAMP
+    data:
+      data-type: block-data
+      value: minecraft:redstone_lamp[lit=false]
+    offset:
+      x: 0.9000190714091528
+      y: 1.0999999999999996
+      z: 2.549529390759541
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.4
+      y: 0.4
+      z: 0.4
+  dark_oak_stairs-42206966:
+    identifier: a33b1738-e75c-47ff-859f-0bef38d59d7e
+    id: dark_oak_stairs-42206966
+    material: DARK_OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.5000190714091525
+      y: 0.40000000000000036
+      z: -1.1504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  glass_pane-53652959:
+    identifier: d19c5bdf-a0f9-4224-9db9-a55db7afef46
+    id: glass_pane-53652959
+    material: GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: -0.49998092859084753
+      y: 1.1999999999999995
+      z: 0.8495293907595403
+    rotation:
+      x: -20.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-102561260:
+    identifier: 5543bb2d-99ee-46e8-a174-d69210646034
+    id: part-102561260
+    material: GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: 0.3000190714091525
+      y: 1.2199999999999998
+      z: 0.8895293907595403
+    rotation:
+      x: -20.0
+      y: 15.000000000000002
+      z: 2.5
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_blue_concrete-38446939:
+    identifier: d6adb4a2-4b3c-4908-ac79-cd7e4b884601
+    id: light_blue_concrete-38446939
+    material: LIGHT_BLUE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:light_blue_concrete
+    offset:
+      x: -1.4999809285908476
+      y: 0.40000000000000036
+      z: 0.8495293907595403
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_blue_concrete-48886736:
+    identifier: 76ec4f7e-2320-4571-84df-8cd157b99f9e
+    id: light_blue_concrete-48886736
+    material: LIGHT_BLUE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:light_blue_concrete
+    offset:
+      x: 0.5000190714091525
+      y: 0.40000000000000036
+      z: 0.8495293907595403
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-27150353:
+    identifier: 89b89edf-0bff-4aec-a5e6-3ee3dc3481fa
+    id: black_carpet-27150353
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: 0.5000190714091525
+      y: 0.40000000000000036
+      z: -0.15047060924045974
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_blue_concrete-26234644:
+    identifier: 02e06af5-e669-47f0-b07c-a42dc865c888
+    id: light_blue_concrete-26234644
+    material: LIGHT_BLUE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:light_blue_concrete
+    offset:
+      x: 0.5000190714091525
+      y: 0.40000000000000036
+      z: 1.8495293907595403
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-52063349:
+    identifier: 6508bb74-dd4e-4d8f-9ef9-2b589df28caf
+    id: part-52063349
+    material: GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: -1.0999809285908482
+      y: 1.0999999999999996
+      z: -0.7504706092404597
+    rotation:
+      x: -89.94846872719042
+      y: -60.00005631116547
+      z: -89.94407008536493
+    scale:
+      x: 1.6
+      y: 1.2000000000000002
+      z: 1.0
+  light_blue_concrete-55589437:
+    identifier: df8f26be-3e7f-431b-bfb5-0d57d65d5da3
+    id: light_blue_concrete-55589437
+    material: LIGHT_BLUE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:light_blue_concrete
+    offset:
+      x: -1.4999809285908476
+      y: 0.40000000000000036
+      z: -3.1504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-62660984:
+    identifier: bcc2a54c-5acd-4472-90a9-c23b4664f7de
+    id: part-62660984
+    material: REDSTONE_LAMP
+    data:
+      data-type: block-data
+      value: minecraft:redstone_lamp[lit=false]
+    offset:
+      x: -1.2999809285908475
+      y: 1.0999999999999996
+      z: -3.2504706092404594
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.4
+      y: 0.4
+      z: 0.4
+  dark_oak_planks-32866375:
+    identifier: ab9def10-efb9-42eb-93c7-81745c772388
+    id: dark_oak_planks-32866375
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_planks
+    offset:
+      x: -1.4999809285908476
+      y: 0.40000000000000036
+      z: -2.1504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.0000000000000004
+      y: 1.0
+      z: 1.0
+  part-67757531:
+    identifier: a95a901d-c7d2-4c0e-a3bc-0dcf6913e4f0
+    id: part-67757531
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: -1.1999809285908476
+      y: 0.4
+      z: 1.8495293907595411
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 1.6
+      y: 1.6
+      z: 1.6
+  spruce_trapdoor-18659214:
+    identifier: 28ef3d10-e392-4880-b225-57f61a52b5a3
+    id: spruce_trapdoor-18659214
+    material: SPRUCE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:spruce_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -2.3999809285908476
+      y: 0.40000000000000036
+      z: -1.1504706092404597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-92376641:
+    identifier: dc4ef450-44e1-463b-abe0-c0144731e5f5
+    id: part-92376641
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: 1.2000190714091525
+      y: 0.4
+      z: -2.1504706092404593
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 1.6
+      y: 1.6
+      z: 1.6
+bones:
+  back-wheels:
+    identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+    id: back-wheels
+    pivot:
+      x: 0.0
+      y: 0.4
+      z: -2.17
+    rotation:
+      x: 0.0
+      y: -0.0
+      z: 0.0
+  front-wheels:
+    identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+    id: front-wheels
+    pivot:
+      x: 0.0
+      y: 0.4
+      z: 1.84
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+rig:
+  e6cc16a3-c8b2-4e71-b200-2a889922ed54:
+    identifier: e6cc16a3-c8b2-4e71-b200-2a889922ed54
+    parent: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+  dc4ef450-44e1-463b-abe0-c0144731e5f5:
+    identifier: dc4ef450-44e1-463b-abe0-c0144731e5f5
+    parent: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+  9d8317eb-ba53-4b4c-94c3-d0f083343925:
+    identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+    children:
+    - dc4ef450-44e1-463b-abe0-c0144731e5f5
+    - 5bfc94cc-cf3f-4332-acf9-585e0d3caacd
+  cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e:
+    identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+    children:
+    - e6cc16a3-c8b2-4e71-b200-2a889922ed54
+    - a95a901d-c7d2-4c0e-a3bc-0dcf6913e4f0
+  5bfc94cc-cf3f-4332-acf9-585e0d3caacd:
+    identifier: 5bfc94cc-cf3f-4332-acf9-585e0d3caacd
+    parent: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+  a95a901d-c7d2-4c0e-a3bc-0dcf6913e4f0:
+    identifier: a95a901d-c7d2-4c0e-a3bc-0dcf6913e4f0
+    parent: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+animations:
+  wheel-spin-forward:
+    id: wheel-spin-forward
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: 45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: 45.0
+              y: 0.0
+              z: 0.0
+    states-to-apply: moving
+  wheel-spin-forward-turn-left:
+    id: wheel-spin-forward-turn-left
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: 0.0
+              y: 7.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: 45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: 45.00000000000001
+              y: 7.0
+              z: -7.0
+    states-to-apply: moving_turning_left
+  wheel-spin-backward-turn-left:
+    id: wheel-spin-backward-turn-left
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: 0.0
+              y: 7.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: -45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: -45.000000000000014
+              y: 7.000000000000002
+              z: 7.0
+    states-to-apply: moving_backwards_turning_left
+  wheel-spin-backward:
+    id: wheel-spin-backward
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: -45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: -45.0
+              y: 0.0
+              z: 0.0
+    states-to-apply: moving_backwards
+  wheel-spin-forward-turn-right:
+    id: wheel-spin-forward-turn-right
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: 0.0
+              y: -7.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: 45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: 45.00000000000002
+              y: -7.000000000000003
+              z: 7.0
+    states-to-apply: moving_turning_right
+  wheel-spin-backward-turn-right:
+    id: wheel-spin-backward-turn-right
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: 0.0
+              y: -7.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: 9d8317eb-ba53-4b4c-94c3-d0f083343925
+            value:
+              x: -45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: cd09c3f2-d9ef-43f6-9320-9ed4699e9d0e
+            value:
+              x: -45.000000000000014
+              y: -7.000000000000002
+              z: -7.0
+    states-to-apply: moving_backwards_turning_right
